@@ -1,0 +1,1805 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "đầm xanh kẻ sọc chéo",
+      "price": "148.000",
+      "promotional_price": "81.700",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/22/16558877767ea0fd83b6f6354ad749175a881fdba5_thumbnail_405x552.jpg",
+      "type": "sw",
+      "code_SKU": "2205200856856080"
+    },
+    {
+      "id": 2,
+      "name": "Honeyspot Áo len nữ vest Nút Sọc Giải trí",
+      "price": "292.000",
+      "promotional_price": "175.100",
+      "img": "//img.ltwebstatic.com/images3_pi/2022/04/10/164959077612b501fab9bdfd2a396b6b84d4354a0f_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2204032396160924"
+    },
+    {
+      "id": 3,
+      "name": "DAZY Áo thun nữ Gân đan màu trơn Giải trí",
+      "price": "148.000",
+      "promotional_price": "81.700",
+      "img": "//img.ltwebstatic.com/images3_pi/2022/03/30/1648610520a4606fab6f410f18d6a7c411dc96e24c_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2202141027027204"
+    },
+    {
+      "id": 4,
+      "name": "DAZY Quần short denim nữ Hem thô Bị tách màu trơn",
+      "price": "280.000",
+      "promotional_price": "151.800",
+      "img": "//img.ltwebstatic.com/images3_pi/2022/05/27/16536281782a9677ee1c7361cb3d7ac9322b8014f9_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2112252269333036"
+    },
+    {
+      "id": 5,
+      "name": "DAZY Váy nữ Viên lá sen Sọc Giải trí",
+      "price": "301.000",
+      "promotional_price": "204.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/13/165511336438bc071d4e000973d5d14ce426d5d37b_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205102080606065"
+    },
+    {
+      "id": 6,
+      "name": "Áo len nữ vest Đắp vá Lá thư Sọc Sẵn sàng",
+      "price": "266.000",
+      "promotional_price": "250.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/21/16557885525db7e6fd2a0a22340ce1e830baeaf7d5_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205191933653536"
+    },
+    {
+      "id": 7,
+      "name": "Quần áo thể thao nữ Dây kéo Túi Lá thư Giải trí",
+      "price": "231.000",
+      "promotional_price": "187.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/13/1655112321008eff8dece8a28d84b686b5deb6cc2a_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205266266181626"
+    },
+    {
+      "id": 8,
+      "name": "Honeyspot Áo len nữ vest Lá thư Giải trí",
+      "price": "172.000",
+      "promotional_price": "138.000",
+      "img": "https://img.ltwebstatic.com/images2_pi/2019/04/08/15547118954259454440_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205109737179139"
+    },
+    {
+      "id": 9,
+      "name": "SHEIN BASICS Áo len nữ vest Sọc Giải trí",
+      "price": "214.000",
+      "promotional_price": "125.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/01/1656649783848a90e452da5144eeab012b8f314d5e_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205124227164104"
+    },
+    {
+      "id": 10,
+      "name": "SHEIN X BAE REAPER Quần áo thể thao nữ Hoạt hình Lá",
+      "price": "226.000",
+      "promotional_price": "182.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/24/1656035396a84b4ef5f2eb913de6820556fa175a9c_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205209976790195"
+    },
+    {
+      "id": 11,
+      "name": "DAZY Áo nữ cắt màu trơn Giải trí",
+      "price": "278.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/07/1657176138122fa38127b3402aa236ab0376f9bc8e_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2206098515165954"
+    },
+    {
+      "id": 12,
+      "name": "SHEIN BASICS Áo len nữ vest màu trơn Giải trí",
+      "price": "142.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/01/1656649873fba3eebb09139d8a3206f35a97fb3045_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205122133776245"
+    },
+    {
+      "id": 13,
+      "name": "SHEIN Quần áo thể thao nữ Bất đối xứng Hoa Giải trí",
+      "price": "271.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/29/1656469975c2e68426dd2dc36c90303b707dcdfa52_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205302672677396"
+    },
+    {
+      "name": "DAZY Áo len nữ vest Sọc Giải trí",
+      "price": "274.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/03/31/1648715979a8ec7ddfeaf37c5362187cce789d1167_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205192356379973",
+      "id": 14
+    },
+    {
+      "name": "SHEIN Ladies áo len váy Tương phản ràng buộc Sọc Giải trí",
+      "price": "280.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/04/16569038186d1d67d60f2921bf8f47f13adc301c41_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205261048073660",
+      "id": 15
+    },
+    {
+      "name": "DAZY Áo sơ mi nữ Nút phía trước màu trơn Giải trí",
+      "price": "267.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/18/164248648994ae2044f1ff2158a4bef5f4c0b9a1dd_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205100583138888",
+      "id": 16
+    },
+    {
+      "name": "Áo len nữ vest Lễ Các Thánh Sọc ca rô Sẵn sàng",
+      "price": "242.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/06/16545025109a985797df2d4180336784ae90efbc82_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205112270117021",
+      "id": 17
+    },
+    {
+      "name": "SHEIN Áo len nữ vest Lá thư Giải trí",
+      "price": "245.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/29/16564705896f27886578eba6966ea0ae8ccd89b64e_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205165394073359",
+      "id": 18
+    },
+    {
+      "name": "Quần áo thể thao nữ Bất đối xứng Dây kéo màu trơn Giải trí",
+      "price": "199.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/31/16539610207a63f935eca79a8dcfcf79f41ebde0c7_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205059770976860",
+      "id": 19
+    },
+    {
+      "name": "SHEIN Quần áo thể thao nữ màu trơn Giải trí",
+      "price": "280.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/29/16564733327fcb4f7b1342413c6291c52f9b3f3b7d_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205279300172586",
+      "id": 20
+    },
+    {
+      "name": "DAZY Quần áo thể thao nữ Dây kéo màu trơn Giải trí",
+      "price": "253.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/06/30/162504248437fbcdab740dd3fccefabbfd6284fea3_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205197360005836",
+      "id": 21
+    },
+    {
+      "name": "Women Suit Pants Nút Túi màu trơn",
+      "price": "346.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/20/1655717263412c6599cd2dd3b27730e85b17033b6d_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205257766489989",
+      "id": 22
+    },
+    {
+      "name": "DAZY Đầm Nút phía trước Sọc Giải trí\n",
+      "price": "405.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/29/1656487822d8e08ab6207fe1d1bc85a26fdb8fffc5_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205182575683655",
+      "id": 23
+    },
+    {
+      "name": "DAZY Nữ Cardigans Nút phía trước màu trơn Giải trí",
+      "price": "385.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/08/19/1629367679e88542f3cbace1babc7c3e58e23549f4_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205198399184981",
+      "id": 24
+    },
+    {
+      "name": "Dazy-Less Váy nữ Nút phía trước màu trơn Giải trí",
+      "price": "337.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/21/1658386633e8a64c519ac8eaeac23aeb341ef45601_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205107774894208",
+      "id": 25
+    },
+    {
+      "name": "DAZY Áo sơ mi nữ Tranh thêu màu trơn Dễ thương",
+      "price": "250.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/02/15/164491503931906fa1e8843c479729727deb3e5e62_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205102572434757",
+      "id": 26
+    },
+    {
+      "name": "Quần áo thể thao nữ Khối Màu Giải trí",
+      "price": "172.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/02/1654161396766043c77dc8c5bbc016b8275174f33c_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205095679950684",
+      "id": 27
+    },
+    {
+      "name": "Quần áo thể thao nữ Dây kéo Khối Màu Lá thư Giải trí",
+      "price": "301.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/31/16539878655792d0d2c7c6935f491bea949e646b7c_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205198328899597",
+      "id": 28
+    },
+    {
+      "name": "Quần áo thể thao nữ Dây kéo Khối Màu Lá thư Giải trí",
+      "price": "242.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/31/16539878655792d0d2c7c6935f491bea949e646b7c_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2109076239049495",
+      "id": 29
+    },
+    {
+      "name": "Quần áo thể thao nữ Slogan Giải trí",
+      "price": "258.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/06/165448462479f5f242d58e7fed7cc363be4db89caf_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205167005544141",
+      "id": 30
+    },
+    {
+      "name": "SHEIN X Jamie Hill Quần áo thể thao nữ Cắt ra Đồ họa Giải trí",
+      "price": "203.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/24/16560338609bc9a72c1f250c975d7d3bdb33830c44_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205203384331853",
+      "id": 31
+    },
+    {
+      "name": "SHEIN Áo len nữ vest Hình học Sẵn sàng",
+      "price": "246.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/29/16564704822c1993e983bb9e5443761fba083c9161_thumbnail_900x.webp",
+      "type": "sw",
+      "code_SKU": "2205167402299291",
+      "id": 32
+    },
+    {
+      "name": "Honeyspot Áo len nữ vest Lá thư Giải trí",
+      "price": "172.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/10/16417863646193d86659c9f760fa4e1784982c1931_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205109737179139",
+      "id": 33
+    },
+    {
+      "name": "Honeyspot Áo len nữ vest Chuỗi màu trơn Giải trí",
+      "price": "296.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/11/02/163584066727e1125c1f75b413cdd309ca1448a93a_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205238894656757",
+      "id": 34
+    },
+    {
+      "name": "Dazy-Less Áo len nữ vest Cáp đan Cắt ra màu trơn Giải trí",
+      "price": "364.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/09/17/1631859319aa1f46100c933630530d8615e09863f3_thumbnail_405x552.webp",
+      "type": "sw",
+      "code_SKU": "2205181436487826",
+      "id": 35
+    },
+    {
+      "name": "Đồng hồ thạch anh con trỏ tròn trang trí rhinestone",
+      "price": "50.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/08/13/1628817700b80a44a8dc85c35cfb3cbc7c909a28f3_thumbnail_900x.webp",
+      "type": "sj",
+      "code_SKU": "2108128539985053",
+      "id": 36
+    },
+    {
+      "name": "Vòng cổ chuỗi hạt màu",
+      "price": "20.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/06/22/1624329684b34624500c224e4b73ba8d724ff9e8ad_thumbnail_900x.webp",
+      "type": "sj",
+      "code_SKU": "210617167421812",
+      "": "",
+      "id": 37
+    },
+    {
+      "name": "Hoa tai đinh tán thiết kế hoa",
+      "price": "14.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/25/1653469413fa9112fb74ade7ce2e5a8e2f0ef5003e_thumbnail_900x.webp",
+      "type": "sj",
+      "code_SKU": "2205054594112022",
+      "id": 38
+    },
+    {
+      "name": "1 đôi hoa tai stud hoa",
+      "price": "35.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2020/04/24/1587714591a692b0c1c74c0be16ff9afdc626ac5a1_thumbnail_900x.webp",
+      "type": "sj",
+      "code_SKU": "18200424314",
+      "id": 39
+    },
+    {
+      "name": "Bông tai đinh tán thiết kế bướm",
+      "price": "17.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/03/24/1648112632369adf0f9da36540373bd5b77d3c35f9_thumbnail_900x.webp",
+      "type": "sj",
+      "code_SKU": "2203208680525864",
+      "id": 40
+    },
+    {
+      "id": 41,
+      "name": "Quần Short Nam Dây kéo Túi màu trơn Đường phố",
+      "price": 306,
+      "promotional_price": 175.1,
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/06/1651834881caf4c5b90088d6209f45b2eab8102c3c_thumbnail_220x293.webp",
+      "type": "sm",
+      "code_SKU": "2204225222846840"
+    },
+    {
+      "name": "DAZY Áo sơ mi Nam màu trơn Giải trí",
+      "price": "232.000",
+      "promotional_price": "128.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/01/1654080432c7b2cb8ecc1eedcd6375e1cced96a00c_thumbnail_405x552.webp",
+      "type": "sm",
+      "code_SKU": "2202150923433639",
+      "id": 42
+    },
+    {
+      "name": "Áo sơ mi Nam Nút phía trước Hình học Kỳ nghỉ",
+      "price": "225.000",
+      "promotional_price": "187.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/01/1648781874f00ccbc4cfa06af87a5d7fcc2ea2c8ae_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2203030008080127",
+      "id": 43
+    },
+    {
+      "name": "DAZY Tops Nam Gân đan màu trơn Giải trí",
+      "price": "225.000",
+      "promotional_price": "157.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/01/1648781874f00ccbc4cfa06af87a5d7fcc2ea2c8ae_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2203094606065460",
+      "id": 44
+    },
+    {
+      "name": "Tops Nam Con số Slogan Đường phố",
+      "price": "179.000",
+      "promotional_price": "115.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/26/16509380790b06f855675e4f6ce48a1f4fd83b995e_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2204205126313025",
+      "id": 45
+    },
+    {
+      "name": "DAZY Tops Nam Lá thư Giải trí",
+      "price": "195.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/11/164187234641679247ed62db43b82243bd844af3d4_thumbnail_405x552.webp",
+      "type": "sm",
+      "code_SKU": "2202098121320925",
+      "id": 46
+    },
+    {
+      "name": "SHEIN Áo thun có cổ Nam Tương phản ren Nút phía trước Khối Màu Lá thư Sẵn sàng",
+      "price": "225.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/14/16421241855dfe8c79649db50faf8ac19dfa18d0d8_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2112136062039994",
+      "id": 47
+    },
+    {
+      "name": "Áo sơ mi Nam Nút phía trước Khối Màu Lá thư Giải trí",
+      "price": "256.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/05/16517182111731fd57f399045bbd76ace33bf2283a_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2204252848663682",
+      "id": 48
+    },
+    {
+      "name": "Áo thun có cổ Nam Nút phía trước Đồ họa Giải trí",
+      "price": "213.300",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/20/1653026016c777c0fb796329e69753d6ae9f2c8cf2_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2204152148306276",
+      "id": 49
+    },
+    {
+      "name": "Áo sơ mi Nam Nút phía trước màu trơn Công việc",
+      "price": "281.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/03/21/164785138330ce413b577106f77813e7b87489d507_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2109039860661621",
+      "id": 50
+    },
+    {
+      "name": "Áo thun có cổ Nam Dây kéo Tất cả trên in Giải trí",
+      "price": "249.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/20/16530241055ccf045011170297b5725bc24ea86cbe_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2204147775738029",
+      "id": 51
+    },
+    {
+      "name": "Áo sơ mi Nam Nút phía trước kẻ sọc In ngẫu nhiên Sẵn sàng",
+      "price": "244.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/22/1653197182627970f13882357f63497890ba4132ea_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2204135709297066",
+      "id": 52
+    },
+    {
+      "name": "Áo thun có cổ Nam Nút phía trước Khối Màu Sọc Giải trí",
+      "price": "264.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/27/16563213108ddaafe4b3a743f23ef408f236999392_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2206139040254659",
+      "id": 53
+    },
+    {
+      "name": "Áo thun có cổ Nam Nút Tương phản ren răng cưa Giải trí",
+      "price": "268.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/24/165606425280bba2ed92a5a7bdf8c7b0d93b3ba3bc_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2206133047795789",
+      "id": 54
+    },
+    {
+      "name": "Extended Sizes Áo thun có cổ Nam Dây kéo Khối Màu Giải trí",
+      "price": "307.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/23/1655997628f2aac96b8cf756257ecdc69932e575f6_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2205204757573971",
+      "id": 55
+    },
+    {
+      "name": "Áo thun có cổ Nam Nghề thêu Lá thư Giải trí",
+      "price": "244.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/24/165606420721be50330c1a6dedd93c6b5f1843fa68_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2206135855591885",
+      "id": 56
+    },
+    {
+      "name": "Extended Sizes Áo thun có cổ Nam Nút Khối Màu Giải trí",
+      "price": "296.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/21/16558113992951c7349bcbeab279657edf8bced38a_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2205202351612684",
+      "id": 57
+    },
+    {
+      "name": "Extended Sizes Áo thun có cổ Nam Dây kéo Khối Màu Giải trí",
+      "price": "293.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/21/1655777469b6a428ac55a2aed38a0de49ceb96af37_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2205205593655353",
+      "id": 58
+    },
+    {
+      "name": "Quần Nam Túi Dây kéo màu trơn Giải trí",
+      "price": "690.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/10/1652153070dbedc2dfec4a77e02b7e1b5413e529d7_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2203306827917141",
+      "id": 59
+    },
+    {
+      "name": "Quần Nam Dây kéo Túi màu trơn Giải trí",
+      "price": "237.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/11/26/16379056688b6827504323758b2442f81e62f7eaf8_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "pants25210528311",
+      "id": 60
+    },
+    {
+      "name": "Extended Sizes Quần Short Nam Dây kéo Túi màu trơn Giải trí",
+      "price": "287.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/30/165657842376e86b7494cc5899c437b5cb46abcc78_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2206071532744497",
+      "id": 61
+    },
+    {
+      "name": "SHEIN Quần short nam đi biển Dây kéo Khối Màu Kỳ nghỉ",
+      "price": "185.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/19/164256142954cfaa1ca4d7be4af63d27206afc8f3c_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2111248627217783",
+      "id": 62
+    },
+    {
+      "name": "SHEIN Quần Short Nam Dây kéo Túi Hoa Kỳ nghỉ",
+      "price": "170.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/12/01/1638328271850875ddb53ca862ede9d48d0db913cf_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2111046199908111",
+      "id": 63
+    },
+    {
+      "name": "Quần Short Nam Dây kéo Túi màu trơn Giải trí",
+      "price": "251.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/28/165640969561fd78a11652bb25b38713586b01b699_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2206105884798970",
+      "id": 64
+    },
+    {
+      "name": "ROMWE Quần Short Nam Dây kéo Túi Thắt nơ trước Lá thư Sọc Sẵn sàng",
+      "price": "196.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/04/16569448737a6464e73b8cdf8c7f8eaddc45dc11bf_thumbnail_405x552.webp",
+      "type": "sm",
+      "code_SKU": "2205268088812525",
+      "id": 65
+    },
+    {
+      "name": "ROMWE Quần Short Nam Dây kéo Thắt nơ trước Lá thư Nhiệt đới Kỳ nghỉ",
+      "price": "224.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/03/07/16466254611d209a13f652ec2013815029610c753a_thumbnail_405x552.webp",
+      "type": "sm",
+      "code_SKU": "2205236599590203",
+      "id": 66
+    },
+    {
+      "name": "ROMWE Quần Short Nam Dây kéo Lá thư Sẵn sàng",
+      "price": "191.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/01/165665187090986064b1e11f4300e995554383dd82_thumbnail_405x552.webp",
+      "type": "sm",
+      "code_SKU": "2205188226852276",
+      "id": 67
+    },
+    {
+      "name": "ROMWE Quần Short Nam Dây kéo Thắt nơ trước Hoạt hình Lá thư Giải trí",
+      "price": "224.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/12/01/16383282730f488f49b12e22eed861392a7fdaccfe_thumbnail_405x552.webp",
+      "type": "sm",
+      "code_SKU": "2205185686855343",
+      "id": 68
+    },
+    {
+      "name": "Kính râm nam có gọng hình học",
+      "price": "65.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/30/16565580409e05b02529a72610feded4009565cb0f_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2111166280288471",
+      "id": 69
+    },
+    {
+      "name": "Giày Sandal Nam Rỗng Ngụy trang dép quai hậu",
+      "price": "242.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/02/15/1644908070d6ca0cb9d0592b2e2175b30dc790c287_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2202148891166541",
+      "id": 70
+    },
+    {
+      "name": "Kính thời trang hàng đầu dành cho nam",
+      "price": "100.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/31/1653975895126acbb7bde76d927c2c21bc6522ddfe_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2205311470703139",
+      "id": 71
+    },
+    {
+      "name": "Kính râm nam vuông",
+      "price": "83.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/06/165707831900d7e65fecb3b45e59d9a7110216a665_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "glass18200512782",
+      "id": 72
+    },
+    {
+      "name": "Mũ xô đồ họa nam chữ cái",
+      "price": "96.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/18/1652844859022fa5cd8661c8faf29e03ab0b267ef0_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "sc2205165733380708",
+      "id": 73
+    },
+    {
+      "name": "Giày loafer nam màu trơn",
+      "price": "475.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/27/165632643354a08b5b2381825cd608d8372967d306_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2205258223270217",
+      "id": 74
+    },
+    {
+      "name": "Giày boot nam Ren lên Lá thư Không có dây kéo",
+      "price": "539.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/02/1654154057fe2f3438ea9a5df0d52497effa2e2866_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2205291815820450",
+      "id": 75
+    },
+    {
+      "name": "Đồ bơi Nam Dây kéo Nhiệt đới Kỳ nghỉ",
+      "price": "231.000",
+      "promotional_price": "205.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/17/165543460646c7e99a4521c9a57a26acf248fbc99a_thumbnail_405x552.webp",
+      "type": "sm",
+      "code_SKU": "03210306619",
+      "id": 76
+    },
+    {
+      "name": "Đồ bơi Nam Dây kéo Tất cả trên in Kỳ nghỉ",
+      "price": "160.000",
+      "promotional_price": "130.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/02/26/1614310193739cddba95153b2fabb00f0efe72183c_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "03201216892",
+      "id": 77
+    },
+    {
+      "name": "SHEIN Áo thun có cổ Nam Tương phản ren Nút phía trước Hình học Tất cả trên in Công việc",
+      "price": "211.000",
+      "promotional_price": "195.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/26/1650959220dd5dd17f7e150a4c4ebf8cab3d15be08_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2203298958213145",
+      "id": 78
+    },
+    {
+      "name": "ROMWE Áo sơ mi Nam Nút phía trước Cà vạt nhuộm Kỳ nghỉ",
+      "price": "243.000",
+      "promotional_price": "155.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/14/16421241855dfe8c79649db50faf8ac19dfa18d0d8_thumbnail_900x.webp",
+      "type": "sm",
+      "code_SKU": "2204063042153937",
+      "id": 79
+    },
+    {
+      "name": "ROMWE Áo sơ mi Nam Nút phía trước Cà vạt nhuộm Kỳ nghỉ",
+      "price": "243.000",
+      "promotional_price": "155.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/12/16523334581f8af87c52347e47ccfb2c58c2640ff3_thumbnail_900x.webp  ",
+      "type": "sm",
+      "code_SKU": "2204063042153937",
+      "id": 80
+    },
+    {
+      "id": 81,
+      "name": "Tops em bé Lá thư",
+      "price": "106.000",
+      "promotional_price": "70.100",
+      "img": "//img.ltwebstatic.com/images3_pi/2022/05/26/1653535735a630b183f5aeaf49e0fb53d593a6df6d_thumbnail_900x.webp",
+      "type": "sa",
+      "code_SKU": "2205138842908414"
+    },
+    {
+      "name": "SHEIN Bộ thời trang bé trai Khối Màu Giải trí",
+      "price": "236.000",
+      "promotional_price": "140.100",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/23/1653277388ed762621a792ea43b82d2af1d2433bab_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205070622091195",
+      "id": 82
+    },
+    {
+      "name": "Đầm em bé Đề can Nơ trước Hoa Tất cả trên in Boho",
+      "price": "168.000",
+      "promotional_price": "105.100",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/11/24/1637730467430d7f549db8f9942edcbbeea134fb68_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2111150058270500",
+      "id": 83
+    },
+    {
+      "name": "Bodysuits Em bé Khối Màu Tất cả trên in",
+      "price": "137.000",
+      "promotional_price": "81.700",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/29/16511962201f479e6c4dd7bd25b1f04b5b26ceb853_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204241197300262",
+      "id": 84
+    },
+    {
+      "name": "Bodysuits Em bé Xù Hoạt hình",
+      "price": "170.000",
+      "promotional_price": "105.100",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/12/10/1639139212f72de3a90395c86c6e1d75741b8f099a_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2111107064060312",
+      "id": 85
+    },
+    {
+      "name": "Bé Trai Quần Jeans Túi Bị tách màu trơn",
+      "price": "371.000",
+      "promotional_price": "198.500",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/12/10/1639139212f72de3a90395c86c6e1d75741b8f099a_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205071446848812",
+      "id": 86
+    },
+    {
+      "name": "Toddler Girls Quần Shorts Denim Hem thô Bị tách màu trơn",
+      "price": "240.000",
+      "promotional_price": "151.800",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/27/16510282762fe5d758bfdf7a2eefc17382f3d9ba1b_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204186546723379",
+      "id": 87
+    },
+    {
+      "name": "SHEIN Tanks Bé Trai Tương phản ràng buộc Thực vật Slogan Giải trí",
+      "price": "105.000",
+      "promotional_price": "58.400",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/22/16506074807b6689f92582da4db7e48be0ae464354_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204082943432321",
+      "id": 88
+    },
+    {
+      "name": "Denim em bé Túi Hem thô màu trơn",
+      "price": "257.000",
+      "promotional_price": "151.800",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/06/165449785047d969145083ca49d2ab37cd10746163_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205190729235755",
+      "id": 89
+    },
+    {
+      "name": "SHEIN Bé Gái Quần Shorts Denim Nút Nghề thêu Túi Hem thô Dây kéo Hoa",
+      "price": "309.000",
+      "promotional_price": "175.100",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/05/165171697274cbd96998532fd4dae73a893b14ff0c_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204072020960245",
+      "id": 90
+    },
+    {
+      "name": "SHEIN Bộ hai mảnh Gái Nút Cắt ra Thắt nút Xù Họa tiết hoa Boho",
+      "price": "391.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/01/16540642197eebdabea815b2d76e85272dda78e91d_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204260292432327",
+      "id": 91
+    },
+    {
+      "name": "SHEIN Bộ hai mảnh Gái Xù Viên lá sen màu trơn Dễ thương",
+      "price": "355.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/02/1654134304e9bee0a77a9b75ec463c08cd70e667ac_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204274354547603",
+      "id": 92
+    },
+    {
+      "name": "SHEIN Tops con trai Tất cả trên in Giải trí",
+      "price": "110.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/17/1652756371e4610c03377f890666ee1146e5cd4050_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204089412944444",
+      "id": 93
+    },
+    {
+      "name": "Toddler Girls Quần Shorts Denim Túi Bị tách Denim mùa giặt màu trơn",
+      "price": "269.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/02/1654146775c1191840f4866ced259ed77bd8452ed1_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204186568491849",
+      "id": 94
+    },
+    {
+      "name": "Bộ thời trang bé trai Hình học Giải trí",
+      "price": "189.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/01/1654046879817486fc929b44a23dfde05175b36403_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204213209380533",
+      "id": 95
+    },
+    {
+      "name": "Đồ mặc nhà Gái Nghề thêu Xù nhỏ Hoạt hình Dễ thương",
+      "price": "215.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/06/1649226365ccb183da53f7f9ae850bbb135f2c31cd_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2202251855318087",
+      "id": 96
+    },
+    {
+      "name": "Quần short bé gái Xù Khối Màu kẻ sọc Giải trí",
+      "price": "84.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/08/16494083963fdff2601930304221048831d56ec081_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2203101118345243",
+      "id": 97
+    },
+    {
+      "name": "Bộ đồ Em bé Tương phản Mesh Xù phân lớp Hoa Dễ thương",
+      "price": "250.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/26/1650955763b1f6309256cadbb7e6068046166b6a4a_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2201136279659997",
+      "id": 98
+    },
+    {
+      "name": "Đồ bơi cho bé Xù Rau quả Dễ thương",
+      "price": "164.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/24/1650764111d08bda4896e23ba78db376532dbf1425_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205203619158434",
+      "id": 99
+    },
+    {
+      "name": "Đồ bơi cho bé Dây kéo Hoa Dễ thương",
+      "price": "192.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/17/16554430151612137216243621ba7a739098a3d77d_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205262234411124",
+      "id": 100
+    },
+    {
+      "name": "Đồ bơi cho bé Nơ Bướm Xù Tương phản ràng buộc Lá thư Dễ thương",
+      "price": "164.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/17/1655452596e77d5d85a587bf80a89412c4845fb1b2_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205209428953499",
+      "id": 101
+    },
+    {
+      "name": "Đồ bơi cho bé Hoạt hình Boho",
+      "price": "203.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/30/165387387985ea20be1f84febd49a2ff39dc811be4_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205192322537708",
+      "id": 102
+    },
+    {
+      "name": "SHEIN Đầm Gái Xù nhỏ Hoa Boho",
+      "price": "431.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/06/1654498201145344c634a1aeb986a398e29a7edc22_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204190421519500",
+      "id": 103
+    },
+    {
+      "name": "SHEIN Đầm Gái viền lá sen Xù Viên lá sen màu trơn Dễ thương",
+      "price": "293.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/14/165517247027b91e375a64ab956e95d812f1455b85_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205116977618526",
+      "id": 104
+    },
+    {
+      "name": "SHEIN Đầm Gái ghép mộng kim sa Nghề thêu Xù Dây kéo Hoa Hấp dẫn",
+      "price": "586.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/12/164196282817b4f6daba8fce830b98952653e13db3_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2112157253533555",
+      "id": 105
+    },
+    {
+      "name": "Đầm Gái Túi Nút phía trước màu trơn Giải trí",
+      "price": "242.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/02/14/16448275875bada6456e98c178b600db45651eca1a_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2112102313193318",
+      "id": 106
+    },
+    {
+      "name": "SHEIN Áo cánh Gái Nút phía trước Đồ họa Lá thư Giải trí",
+      "price": "156.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/03/11/1646997737eefa26fa1ffa8f0a8c82c95eb8f16a60_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2201149804801903",
+      "id": 107
+    },
+    {
+      "name": "SHEIN Đầm Gái viền lá sen Viên lá sen Khối Màu Dễ thương",
+      "price": "250.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/27/16510649232f0c5801560cbc782ca3c26af80aa291_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2203163528656085",
+      "id": 108
+    },
+    {
+      "name": "SHEIN Đầm Gái Xù Bộ lạc Boho",
+      "price": "241.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/21/165051889736dc282cd169a3fb67a3b50182893413_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204068766131057",
+      "id": 109
+    },
+    {
+      "name": "SHEIN Đầm Gái Họa tiết hoa Ăn mặc đẹp",
+      "price": "111.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/19/164257398654c2bd819f354485d189819cb2672ef0_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2112205455356566",
+      "id": 110
+    },
+    {
+      "name": "Bộ bikini in hoa ngẫu nhiên 3 gói dành cho cô gái tuổi teen có nắp đậy",
+      "price": "249.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/31/1653979085649b688ba678b4063c67aba069bd6250_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205194865630383",
+      "id": 111
+    },
+    {
+      "name": "SHEIN Áo liền quần Gái Khối Màu Lá thư Thể thao",
+      "price": "245.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/22/1655870472ec04aee5d893210d59420593bf9bc5a2_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204270266439081",
+      "id": 112
+    },
+    {
+      "name": "SHEIN Áo liền quần Gái Dây kéo Nút phía trước màu trơn Ăn mặc đẹp",
+      "price": "326.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/22/165586213385d25ac970c094348ebe21a70be5255e_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204223902973333",
+      "id": 113
+    },
+    {
+      "name": "SHEIN Áo liền quần Gái Thắt lưng Túi Nút phía trước màu trơn Giải trí",
+      "price": "399.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/13/165508853160894c43685eaa68546a0769505c5e09_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205130912490606",
+      "id": 114
+    },
+    {
+      "name": "SHEIN Áo liền quần Gái Thắt lưng Dây kéo màu trơn Giải trí",
+      "price": "243.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/10/1654826482160f9c84504e139b988c16bf99cf0693_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205140358605586",
+      "id": 115
+    },
+    {
+      "name": "SHEIN Áo liền quần Gái Bất đối xứng Xù phân lớp màu trơn Ăn mặc đẹp",
+      "price": "231.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/10/1654832885391851a032b20b70ec239ac2aa8ed15b_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204226549682870",
+      "id": 116
+    },
+    {
+      "name": "SHEIN Bé Gái Quần Shorts Denim Nút Túi Dây kéo màu trơn",
+      "price": "287.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/31/16539756124fd9f65a32ada9ca4e1f2db2167b083c_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204223123334920",
+      "id": 117
+    },
+    {
+      "name": "SHEIN Áo liền quần Gái Dây kéo màu trơn Ăn mặc đẹp",
+      "price": "365.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/09/16547711014b1f0c2cda9cad9527fa8b56d47f8ec7_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204248564464466",
+      "id": 118
+    },
+    {
+      "name": "SHEIN Áo cánh Gái Nút phía trước màu trơn Giải trí",
+      "price": "165.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/14/1655174174b68f80897d6378b5e84404da55e21f33_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2205139920797201",
+      "id": 119
+    },
+    {
+      "name": "SHEIN Áo cánh Gái Nút Cắt ra màu trơn Boho",
+      "price": "127.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/10/1654829578add9db9770c77b568e4a195ac13cd9db_thumbnail_900x.webp",
+      "type": "sk",
+      "code_SKU": "2204246557729666",
+      "id": 120
+    },
+    {
+      "name": "Jumpsuits Plus Size Cắt ra Dây kéo Khối Màu Gợi cảm",
+      "price": "241.000",
+      "promotional_price": "208.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/19/1652923998ab0c82b2202575244b74fc64c1c7101c_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "s2204254341615913",
+      "id": 121
+    },
+    {
+      "name": "SHEIN SXY Jumpsuits Plus Size Dải chun màu trơn Boho",
+      "price": "331.000",
+      "promotional_price": "278.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/25/1653456360225800156d00d8dfe931d6fb45b8bd65_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2203290939470146",
+      "id": 122
+    },
+    {
+      "name": "Quần Denim kích thước lớn Hem thô Bị tách Dây kéo Denim mùa giặt màu trơn",
+      "price": "486.000",
+      "promotional_price": "245.200",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/13/1652408976fda7131d555caeb1ffdd3558866a0ca6_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204184466496529",
+      "id": 123
+    },
+    {
+      "name": "SHEIN Đầm Plus Size Tương phản ren Nút phía trước Khối Màu Thanh lịch",
+      "price": "453.000",
+      "promotional_price": "203.400",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/06/04/16227704803e13c4f2ece6a721a90873570ef025c3_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "07210511605",
+      "id": 124
+    },
+    {
+      "name": "SHEIN Bộ Giản Dị Kích Thước Lớn Tương phản ren Kẻ sọc Hoàng gia",
+      "price": "450.000",
+      "promotional_price": "233.500",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/14/1642125904df8825e0a0562554cd4095231988af6a_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2112082420512707",
+      "id": 125
+    },
+    {
+      "name": "SHEIN Bộ thời trang Plus Size viền lá sen Xù Viên lá sen phân lớp Trọn gói Tranh thêu màu trơn Thanh lịch",
+      "price": "426.000",
+      "promotional_price": "221.800",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/08/16493819465197d231788b102a3f3bb78f4d46670c_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2203182431772286",
+      "id": 126
+    },
+    {
+      "name": "SHEIN SXY Quần Denim kích thước lớn Thắt lưng Nút Túi Dây kéo Denim mùa giặt màu trơn",
+      "price": "513.000",
+      "promotional_price": "256.900",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/10/16521490781c09e0832a557bcdae161715001b75de_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204019542915097",
+      "id": 127
+    },
+    {
+      "name": "SHEIN Đầm Plus Size Xù Nếp gấp Phần Ngực màu trơn Thanh lịch",
+      "price": "320.000",
+      "promotional_price": "163.500",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/12/28/16406581019900c6a32768454ab8d3fe4fba817b9a_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2111262082091950",
+      "id": 128
+    },
+    {
+      "name": "Áo sơ mi Plus Size Nút phía trước Chắp vá Rau quả Boho",
+      "price": "297.000",
+      "promotional_price": "175.100",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/25/1653447926230fb70660e94083763b656af12e4a57_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204197693355947",
+      "id": 129
+    },
+    {
+      "name": "SHEIN Áo thun Plus size Xù Hoa Kẻ sọc Giải trí",
+      "price": "255.000",
+      "promotional_price": "96.500",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/19/1652944657f566a6ef3c7db2af161d0d6649abe3ef_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204110462647705",
+      "id": 130
+    },
+    {
+      "name": "SHEIN Bộ thời trang Plus Size Chia màu trơn Giải trí",
+      "price": "557.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/04/1656899892073b0a7a2fdc46b3d80a7fcdedffd5ee_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204291911928914",
+      "id": 131
+    },
+    {
+      "name": "SHEIN SXY Bộ thời trang Plus Size Bị tách Đồ họa Giải trí",
+      "price": "479.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/01/1656644003447bcf3914569635a4e078abef06204f_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2112288498879981",
+      "id": 132
+    },
+    {
+      "name": "SHEIN Bộ thời trang Plus Size Hoạt hình Giải trí",
+      "price": "271.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/29/16565013795bcdbe54a7dddc0f14133d198e27172b_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2206062292359713",
+      "id": 133
+    },
+    {
+      "name": "SHEIN SXY Bộ thời trang Plus Size mép Lá thư Gợi cảm",
+      "price": "301.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/29/165647044130a81772336f0b2bb35839d76cf94ac3_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204261731704193",
+      "id": 134
+    },
+    {
+      "name": "Bộ thời trang Plus Size Ngụy trang Giải trí",
+      "price": "463.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/16/165534713532ec01652e95b90c38b9084ad3a2c8e7_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2206280949349191",
+      "id": 135
+    },
+    {
+      "name": "SHEIN Bộ thời trang Plus Size Đồ họa Slogan Giải trí",
+      "price": "371.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/28/16563822207703b20b1f157efb160b5f9dca8a0828_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2203094363985237",
+      "id": 136
+    },
+    {
+      "name": "Bộ thời trang Plus Size Gân đan màu trơn Gợi cảm",
+      "price": "296.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/27/16563190975de5880dd3fab691efc420aae86d9e15_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205169596260353",
+      "id": 137
+    },
+    {
+      "name": "Bộ thời trang Plus Size Bất đối xứng Báo Giải trí",
+      "price": "411.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/27/1656299998b9d721bbff7892ddb9e2a12b64ffa584_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2206222547534687",
+      "id": 138
+    },
+    {
+      "name": "Bộ thời trang Plus Size Dây kéo Khối Màu Giải trí",
+      "price": "651.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/27/16562930233c6fa4fe5ccecb037b34c7d13c2d4173_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205199585775500",
+      "id": 139
+    },
+    {
+      "name": "SHEIN X ROXI Bộ thời trang Plus Size Bất đối xứng Xù Nếp gấp Phần Ngực màu trơn Gợi cảm",
+      "price": "326.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/24/1656038058c9fa289123f59d5fdb73c30243d0a204_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205246484667754",
+      "id": 140
+    },
+    {
+      "name": "SHEIN SXY Bộ thời trang Plus Size Lộ Lưng Hội Chữ thập Nhẫn Buộc lại màu trơn Gợi cảm",
+      "price": "412.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/23/1655961737c966b99b0c32594d10d68730e7981754_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204199351438059",
+      "id": 141
+    },
+    {
+      "name": "SHEIN Bộ thời trang Plus Size Chia Thắt nơ trước Nếp gấp Phần Ngực màu trơn Thanh lịch",
+      "price": "458.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/23/16559561430d9c077f3a285dd458ece3bcbabd182e_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204247424375777",
+      "id": 142
+    },
+    {
+      "name": "SHEIN Bộ thời trang Plus Size Lá thư Cà vạt nhuộm Boho",
+      "price": "411.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/20/165570383631b91cce6d807243975c6a9d28b311a5_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205197566712995",
+      "id": 143
+    },
+    {
+      "name": "Bộ thời trang Plus Size Dây kéo Lá thư Giải trí",
+      "price": "364.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/20/1655692963cecfdeb5593c373c3b891e49dc3b81ed_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205267793202183",
+      "id": 144
+    },
+    {
+      "name": "Cộng với kích thước bộ bikini Xù xoắn lại màu trơn Thanh lịch",
+      "price": "294.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/11/1652232309a4a5093ddd51c6ebb8d351d0629529b7_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204189676663663",
+      "id": 145
+    },
+    {
+      "name": "Bikini Ba Lỗ kích thước lớn Cắt ra Nhẫn màu trơn Thanh lịch",
+      "price": "387.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/06/165450063004cf765835c1cf3e7d9d23fed8183e29_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205074004554545",
+      "id": 146
+    },
+    {
+      "name": "Cộng với kích thước một mảnh Thắt nút màu trơn Thanh lịch",
+      "price": "312.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/15/1655286497eff97dae1e760a453e72a5500661dd80_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205261311116636",
+      "id": 147
+    },
+    {
+      "name": "Cộng với kích thước bộ bikini Giải trí",
+      "price": "316.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/04/1641262329e718d8d8b7c70b268b234ed0dc326be9_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2109185670455700",
+      "id": 148
+    },
+    {
+      "name": "Cộng với kích thước một mảnh Xù Bộ lạc Boho",
+      "price": "332.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/09/1654743827eb4241acbe80a6e8784f3a2de72a2121_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205126709341825",
+      "id": 149
+    },
+    {
+      "name": "Bikinx Cộng với kích thước một mảnh Lộ Lưng Hoa Gợi cảm",
+      "price": "333.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/08/1654665405d7ef90699664b0c2f8a5ae0e8e9807b1_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205308366663386",
+      "id": 150
+    },
+    {
+      "name": "Cộng với kích thước một mảnh Hội Chữ thập màu trơn Thanh lịch",
+      "price": "305.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/09/1654739135e999a6414d6193a25a50da3ddd39c12e_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205074891434306",
+      "id": 151
+    },
+    {
+      "name": "Cộng với kích thước một mảnh Chuỗi Nhiệt đới Boho",
+      "price": "364.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/02/16541616254fd5bd42fd7d4c37262ad5468dda7c09_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205103213601155",
+      "id": 152
+    },
+    {
+      "name": "Cộng với kích thước một mảnh Cắt ra Ren lên Báo Gợi cảm",
+      "price": "250.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/02/165413328802daab1f1502b1340c33519291cfa7d3_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205079694546991",
+      "id": 153
+    },
+    {
+      "name": "Cộng với kích thước một mảnh Xù Nhiệt đới Boho",
+      "price": "320.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/31/165396032389817400c909c591c08553886eaa188d_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205058384669342",
+      "id": 154
+    },
+    {
+      "name": "SHEIN Quần Plus Size màu trơn Giải trí",
+      "price": "260.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/05/165699012751fa68d7d84454bfd06841fc57d2e1fe_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2204074027115138",
+      "id": 155
+    },
+    {
+      "name": "Quần Plus Size Túi màu trơn Giải trí",
+      "price": "344.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/09/14/1631596175dfb54b48531d05c90829ffbb1ab15ab9_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2109063563334594",
+      "id": 156
+    },
+    {
+      "name": "SHEIN Quần Plus Size Hoa Giải trí",
+      "price": "201.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/30/16565553555aaf35936574692ee3d856ca12f6253f_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2101220076970177",
+      "id": 157
+    },
+    {
+      "name": "Quần Plus Size Túi Ngụy trang Giải trí",
+      "price": "321.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/28/165641162884c7ee034a9fffb0f8056ef597601f6b_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205236968977399",
+      "id": 158
+    },
+    {
+      "name": "Quần Plus Size Chuỗi màu trơn Giải trí",
+      "price": "515.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/27/1656293102b893b35a09668b0560107897c9d5a5b0_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205197972665946",
+      "id": 159
+    },
+    {
+      "name": "Quần Plus Size Nút Dây kéo Thắt nút Túi màu trơn Giải trí",
+      "price": "416.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/27/16562932310c81be25c59adafe31a06d8cc3d377ca_thumbnail_900x.webp",
+      "type": "sf",
+      "code_SKU": "2205062252551492",
+      "id": 160
+    },
+    {
+      "name": "Bộ bìa duvet in chanh không có chất làm đầy",
+      "price": " 581.000",
+      "promotional_price": "226.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/03/15/1647306037ef3f39196a82e921e01e9521bba630d4_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2203143863826387",
+      "id": 161
+    },
+    {
+      "name": "Tấm làm mát màu Gradient được trang bị",
+      "price": "436.000",
+      "promotional_price": "406.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/20/16530142459bf328355857c39d74fc23c5165b895f_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2205194970275577",
+      "id": 162
+    },
+    {
+      "name": "Zebra Stripe Jacquard trang bị tấm",
+      "price": "580.000",
+      "promotional_price": "284.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/18/16528708946a3530c8dc615db171a329a36edc37fa_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2205150167960049",
+      "id": 163
+    },
+    {
+      "name": "1 cặp áo gối đồ họa khẩu hiệu lễ Phục sinh Không có chất độn",
+      "price": "209.000",
+      "promotional_price": "63.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/02/28/164601486113134f696e3dbdf1fc89cb92cc83f32c_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2202271162181912",
+      "id": 164
+    },
+    {
+      "name": "MOTF PREMIUM CASHMERE WOOL SILK BÌA MẮT ĐÔI LỤA",
+      "price": "454.000",
+      "promotional_price": "377.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/01/17/16423838920828b34a0da7948a7fd07b8e3c50f1f3_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2109146271893360",
+      "id": 165
+    },
+    {
+      "name": "1 cặp Áo gối hình Kangaroo không có đệm lót",
+      "price": "209.000",
+      "promotional_price": "63.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/26/16509453245856a7d6566d47455745ed1d97d56107_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2204264453699535",
+      "id": 166
+    },
+    {
+      "name": "1pair Pom Pom Tufted Pillowcase Không có Filler",
+      "price": "255.000",
+      "promotional_price": "92.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/02/14/1644805421d6a565d1bbd38decf1ed99dc9781df28_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2204264453699535",
+      "id": 167
+    },
+    {
+      "name": "Trang bị mô hình lông vũ",
+      "price": "227.000",
+      "promotional_price": "197.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/14/165517122168d3b80e8b57e5cfffa19ca1c352098c_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2206103244551719",
+      "id": 168
+    },
+    {
+      "name": "Bộ trang tính mẫu Paisley không có chất làm đầy",
+      "price": "418.000",
+      "promotional_price": "302.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/19/165295278732895c28254d954eadd196297ef8d9b4_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2205174142524429",
+      "id": 169
+    },
+    {
+      "name": "Trang bị trơn",
+      "price": "302.000",
+      "promotional_price": "185.000",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/21/1650530674dccc53a07bb470658ff1874866a67257_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2205174142524429",
+      "id": 170
+    },
+    {
+      "name": "2 bông hoa cẩm tú cầu nhân tạo",
+      "price": "23.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/03/22/161638838039345094726db3e05f73a5e5f0e2e268_thumbnail_405x552.webp",
+      "type": "sh",
+      "code_SKU": "18210322628",
+      "id": 171
+    },
+    {
+      "name": "Hộp đựng đồ trang sức 1 cái trong suốt & Túi đựng 20 chiếc",
+      "price": "74.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/09/26/1632648202e8b9ab1272eadca43e27c1707383deeb_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2109249923454505",
+      "id": 172
+    },
+    {
+      "name": "Hộp trang sức màu rắn 1 cái",
+      "price": "84.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/09/26/1632648053f4f9fd353bf8899b8978644b4a1ec0db_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2109244598116333",
+      "id": 173
+    },
+    {
+      "name": "4 cái Thêu Hoa Hồng Patch Sticker",
+      "price": "22.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/31/165396881923237bb0db3dc7a6891aae1beb1e304a_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2205222032909553",
+      "id": 174
+    },
+    {
+      "name": "MOTF PREMIUM 1pc Rhinestone Trang trí mắt Lụa Che mắt",
+      "price": "296.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/02/25/1645761564f20f3a18b73c595e378a7a57731992d1_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2112299425407971",
+      "id": 175
+    },
+    {
+      "name": "1 cặp hình đầu lâu áo gối không có chất làm đầy",
+      "price": "137.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/29/1651226368a51595f4d0d2b6bc47b4a3bd137b4978_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2204254948428462",
+      "id": 176
+    },
+    {
+      "name": "Mô hình hình học Tấm trang bị chống thấm nước có túi bên",
+      "price": "546.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/12/06/1638753205b598d67587486f019063d55dbb5bba6f_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2112042411305023",
+      "id": 177
+    },
+    {
+      "name": "Trang bị Tiger Print",
+      "price": "455.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/10/28/163538563552444ee6f4da44a079d2b52f04028421_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2110281788211467",
+      "id": 178
+    },
+    {
+      "name": "1 cái xương rồng In hộp đựng đồ ăn trưa",
+      "price": "114.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/05/05/16517397160b7c874eede9d25b2940ffccf23f46b5_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "18200420027",
+      "id": 179
+    },
+    {
+      "name": "Giá lưu trữ đồ trang sức có thể gập lại 1pc",
+      "price": "113.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/04/12/1649733611a6fa062d1c509e1fdc9d70e3b92fca62_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2204060535809891",
+      "id": 180
+    },
+    {
+      "name": "5 cái Túi lưu trữ giày màu rắn",
+      "price": "17.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/08/20/1629426057cec6f1da844787b1072dcbd0b9aa0cb0_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2108192820977702",
+      "id": 181
+    },
+    {
+      "name": "Hộp lưu trữ đồ trang sức hình chiếc ghế sofa 1pc",
+      "price": "424.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/01/16540682695b2662811ee005c0a94498e68f78efbf_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2205298333506003",
+      "id": 182
+    },
+    {
+      "name": "Hộp bảo quản thuốc 1pc 12 ô",
+      "price": "10.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/23/16559660245c140edf33c395bf8876f3d865ee1142_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2206174259988888",
+      "id": 183
+    },
+    {
+      "name": "1 cái hộp đựng đồ giặt là màu đặc",
+      "price": "216.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/12/1657618607afee481cc62a86740546afba81eb7a3f_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207129676676808",
+      "id": 184
+    },
+    {
+      "name": "1 cái Túi đựng đồ giặt là Mô hình Gấu Bắc cực",
+      "price": "186.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/11/16575348105ef5cbcaa14fcd54848cad436fead0d7_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207090440396907",
+      "id": 185
+    },
+    {
+      "name": "Giỏ đựng đồ giặt Giỏ giặt vải đồ",
+      "price": "450.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/08/165726910372a63ebb6fd2c4eb97cdf38128a9600b_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207070099194147",
+      "id": 186
+    },
+    {
+      "name": "Hộp đựng đồ giặt có thể gập lại 1pc",
+      "price": "54.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/07/16571689872371d6f8e184ecd9b86abad4c195166c_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "220705296350464",
+      "id": 187
+    },
+    {
+      "name": "1 hộp đựng đồ giặt lưới",
+      "price": "63.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/05/1657010287eddfaf3636a70aa1b99f9596c4a656bf_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207023454292024",
+      "id": 188
+    },
+    {
+      "name": "1 cái thìa lọc bằng thép không gỉ có kẹp",
+      "price": "42.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/13/165770048508e37f07cb2961fc253da8161c2fbf8a_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2206181195925071",
+      "id": 189
+    },
+    {
+      "name": "12 cái Khuôn Cookie Hoa văn Hỗn hợp",
+      "price": "57.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/06/07/16545847194b99128a50cfbe755dcc044500e0e412_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2205163586665876",
+      "id": 190
+    },
+    {
+      "name": "Bộ lọc lưới 1pc có tay cầm",
+      "price": "66.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/07/16571908461a944cb47801039a826645c11f62703e_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207037745769369",
+      "id": 191
+    },
+    {
+      "name": "Khuôn bánh quy hình mèo 1 cái",
+      "price": "10.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2021/05/11/162070499317543a5bcfcf46199104037d0d1db9fb_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "18210511711",
+      "id": 192
+    },
+    {
+      "name": "1 cái khăn trải bàn trang trí bằng ren thêu hoa",
+      "price": "115.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/21/1658368526de597f379855ec175c8d4d1d02be29c1_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207190482696886",
+      "id": 193
+    },
+    {
+      "name": "1 cái khăn trải bàn thêu hoa",
+      "price": "108.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/22/165846757280b865645bb8bafe96818d1c09f15675_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207202007358000",
+      "id": 194
+    },
+    {
+      "name": "1 cái khăn trải bàn hoa văn hình học",
+      "price": "104.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/21/16583689828caab09acec309eb79cdba783f7dee7e_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207196382976046",
+      "id": 195
+    },
+    {
+      "name": "Khăn trải bàn đồ họa hoa & khẩu hiệu",
+      "price": "104.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/21/1658396572c499ce15fed626043104e451080daede_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207208989083891",
+      "id": 196
+    },
+    {
+      "name": "1 cái khăn trải bàn hoa văn hình học Jacquard",
+      "price": "274.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/19/16582011063369e337ca754fbb93d3c3655831bcc8_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207196175785142",
+      "id": 197
+    },
+    {
+      "name": "1 cái khăn trải bàn Halloween Pumpkin & Figure Graphic",
+      "price": "162.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/11/16575098006c932be29d0207de27341d0dc097a422_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207091417112081",
+      "id": 198
+    },
+    {
+      "name": "5 chiếc Halloween Túi quà thiết kế bí ngô",
+      "price": "47.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/21/1658386899bb0811b179927175847f2c80d2421f0a_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207190998378990",
+      "id": 199
+    },
+    {
+      "name": "Túi quà tặng 8 chiếc Halloween",
+      "price": "50.000",
+      "promotional_price": "0",
+      "img": "https://img.ltwebstatic.com/images3_pi/2022/07/14/1657785294a96ee4efaed6b8a5fa0283dfaa75a9b6_thumbnail_900x.webp",
+      "type": "sh",
+      "code_SKU": "2207142000041011",
+      "id": 200
+    }
+  ]
+}

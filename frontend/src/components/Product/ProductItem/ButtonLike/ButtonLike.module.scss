@@ -1,0 +1,15 @@
+.btn-like {
+    border: none;
+    outline: none;
+    padding: 2px;
+    background-color: transparent;
+
+    .unlike-icon,
+    .liked-icon {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+}

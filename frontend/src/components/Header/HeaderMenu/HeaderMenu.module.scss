@@ -1,0 +1,23 @@
+.header-menu {
+    display: flex;
+    padding-right: 42px;
+    width: 42%;
+    height: var(--header-bar-height);
+}
+
+.item-link {
+    height: var(--header-bar-height);
+    line-height: var(--header-bar-height);
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #636364;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #000;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

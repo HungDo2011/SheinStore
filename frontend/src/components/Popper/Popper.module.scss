@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 168px;
+    max-height: 300px;
+    min-height: 60px;
+    color: var(--text-color);
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: none;
+    z-index: 500;
+}
+
+//Search Popper
+.search {
+    height: 300px;
+    margin-top: 5px;
+}
+
+//User Popper
+.user {
+    width: 170px;
+    height: 240px;
+    margin-top: -10px;
+    padding: 0px 15px 10px;
+}
+
+//Cart Popper
+.cart {
+    width: 350px;
+    height: auto;
+    padding: 10px 20px;
+    margin-top: -10px;
+}
+
+//Advise Popper
+.advise {
+    padding: 18px;
+    margin-top: -10px;
+}
+
+//Currency Popper
+.currency {
+    padding: 20px;
+    margin-top: -10px;
+}

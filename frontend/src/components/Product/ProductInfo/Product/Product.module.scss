@@ -1,0 +1,172 @@
+.product-container {
+    font-family: var(--font-arial);
+    max-width: 420px;
+
+    //Product Info
+    .product-info {
+        margin-bottom: 25px;
+
+        .product-name {
+            max-width: 420px;
+            height: 32px;
+            font-size: 16px;
+            color: var(--text-color);
+            text-transform: none;
+            font-weight: 500;
+            word-break: break-word;
+            padding-right: 48px;
+            margin-bottom: 15px;
+        }
+
+        .product-code {
+            margin-right: 10px;
+            margin-bottom: 10px;
+            color: #767676;
+            font-size: 12px;
+        }
+
+        .product-price-group {
+            display: flex;
+            align-items: center;
+
+            .price {
+                color: var(--text-color);
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            .sale-price {
+                margin-right: 5px;
+                font-size: 24px;
+                font-weight: 700;
+                color: #fa6338;
+            }
+            .original-price {
+                font-size: 14px;
+                color: #999;
+                vertical-align: middle;
+                direction: ltr;
+                text-decoration: line-through;
+            }
+        }
+
+        .flashsale-diff {
+            padding: 8px 0px 0 20px;
+            color: #fa6338;
+            line-height: 26px;
+            font-size: 16px;
+            font-weight: 600;
+
+            .sale-percent {
+                margin-left: 5px;
+                padding: 4px 8px;
+                background-color: #facf19;
+                font-size: 14px;
+                font-weight: 400;
+                color: var(--text-color);
+                direction: ltr;
+                text-align: center;
+                vertical-align: bottom;
+            }
+        }
+
+        .count-down-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding: 15px 10px;
+            background-color: #facf19;
+            border-radius: 2px;
+            color: var(--black);
+            font-size: 14px;
+            font-weight: 700;
+
+            .box-timer {
+                display: flex;
+                align-items: center;
+                text-transform: lowercase;
+
+                .count-down-clock {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
+    //Product Select
+    .product-select {
+        padding-top: 10px;
+        border-top: 1px dashed #e5e5e5;
+
+        .select-size {
+            position: relative;
+            min-height: 44px;
+            margin-top: 15px;
+
+            .size-title {
+                margin-bottom: 15px;
+                color: var(--text-color);
+                font-size: 16px;
+                font-weight: 700;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .size-choose {
+                display: flex;
+                line-height: 30px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+
+    //Btn add
+    .product-add {
+        display: flex;
+
+        .btn-like {
+            width: 54px;
+            height: 54px;
+            line-height: 50px;
+            margin-left: 17px;
+            border: 1px solid #e5e5e5;
+            cursor: pointer;
+            border-radius: 50%;
+            text-align: center;
+        }
+    }
+
+    .product-shipping {
+        margin-top: 25px;
+        background-color: #f7f8fa;
+
+        .shipping-box {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            width: 100%;
+            padding: 20px;
+            float: left;
+
+            .shipping-content {
+                .title {
+                    color: var(--black);
+                    font-weight: 700;
+                }
+
+                .content {
+                    color: #767676;
+                }
+
+                .content + .content {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

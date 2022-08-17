@@ -1,0 +1,38 @@
+//Widget
+.widget-menu {
+    display: flex;
+    height: 100%;
+}
+
+.widget-item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    line-height: var(--header-bar-height);
+    padding: 0 15px;
+    text-decoration: none;
+    color: #636364;
+    font-size: 20px;
+    font-weight: 700;
+
+    &:hover {
+        background-color: var(--white);
+        color: var(--black);
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+.item-count {
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.badge {
+    padding-left: 2px;
+    font-size: 14px;
+}

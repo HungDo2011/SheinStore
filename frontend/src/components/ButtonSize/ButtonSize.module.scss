@@ -1,0 +1,54 @@
+.btn-size {
+    min-width: 66px;
+    height: 32px;
+    margin: 0 12px 12px 0;
+    padding: 0 12px;
+    line-height: 30px;
+    font-size: 14px;
+    color: var(--text-color);
+    border-radius: 16px;
+    border: 2px dotted transparent;
+
+    &:hover {
+        border: 2px solid var(--text-color);
+    }
+}
+
+.active {
+    background: transparent;
+    border: 2px solid #222;
+
+    &:hover {
+        border: 2px solid var(--text-color);
+    }
+}
+
+.info-size {
+    min-width: 320px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 16px 4px rgb(0 0 0 / 16%);
+    padding: 16px;
+    border-radius: 2px;
+
+    .info-size-head {
+        padding: 0 0 5px 0;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--text-color);
+        border: none;
+        background-color: var(--white);
+    }
+
+    .info-size-body {
+        margin-bottom: 4px;
+        color: var(--text-color);
+        line-height: 16px;
+        padding: 0;
+        font-size: 12px;
+
+        span {
+            color: #767676;
+            padding-right: 2px;
+        }
+    }
+}
