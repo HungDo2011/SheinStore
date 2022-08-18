@@ -8,7 +8,7 @@ import EventBox from './components/EventBox';
 import FlashSale from './components/FlashSale';
 import HotZone from './components/HotZone';
 import PromoBox from './components/PromotionBox';
-import ButtonSubmit from 'components/Product/ButtonSubmit';
+import ButtonSubmit from 'components/ButtonSubmit';
 
 const cx = classNames.bind(styles);
 

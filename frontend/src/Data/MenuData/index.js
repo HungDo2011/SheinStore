@@ -76,7 +76,6 @@ const widgetMenu = [
         link: config.routesConfig.cart,
         icon: ShoppingBagOutlinedIcon,
         placement: 'bottom',
-        amount: [],
         data: MENU_CART_DATA,
     },
     {
@@ -84,7 +83,6 @@ const widgetMenu = [
         link: config.routesConfig.like,
         icon: FavoriteBorderOutlinedIcon,
         placement: 'bottom-start',
-        amount: [],
         data: MENU_LIKE_DATA,
     },
     {

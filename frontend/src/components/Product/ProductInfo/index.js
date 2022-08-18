@@ -5,35 +5,13 @@ import { Container, Col, Row } from 'react-bootstrap';
 
 import styles from './ProductInfo.module.scss';
 import images from 'assets/images';
+import { publicRoutes } from 'routes/routes';
 import ProductThumbnail from './ProductThumbnail';
 import Product from './Product';
-import ButtonSubmit from '../ButtonSubmit';
+import ButtonSubmit from 'components/ButtonSubmit';
 import ListItem from '../ProductList/ListItem/ListItem';
 
 const cx = classNames.bind(styles);
-
-const setData = [
-    {
-        type: 'women',
-        code: ['sw', 'sj'],
-    },
-    {
-        type: 'kid',
-        code: ['sa', 'sk'],
-    },
-    {
-        type: 'men',
-        code: ['sm'],
-    },
-    {
-        type: 'plusSize',
-        code: ['sf'],
-    },
-    {
-        type: 'life',
-        code: ['sh'],
-    },
-];
 
 function ProductInfo({ data }) {
     const [itemName, setItemName] = useState('');
@@ -61,7 +39,7 @@ function ProductInfo({ data }) {
                 setProduct(item);
                 setItemName(item.name);
                 // eslint-disable-next-line
-                setData.filter((e) => {
+                publicRoutes.filter((e) => {
                     if (e.code.includes(item.type)) {
                         setType(e.type);
                     }

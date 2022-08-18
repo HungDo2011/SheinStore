@@ -1,0 +1,23 @@
+.wrapper {
+    font-family: 'Roboto', sans-serif;
+}
+
+.emty-box {
+    text-align: center;
+
+    margin: 0 auto;
+
+    .emty-img {
+        width: 101px;
+        height: 106px;
+        margin: 50px 0 33px;
+    }
+}
+
+.cart-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #060606;
+    text-transform: uppercase;
+}

@@ -1,4 +1,5 @@
 @import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import '~bootstrap/scss/bootstrap';
 @import '~slick-carousel/slick/slick.css';
 @import '~slick-carousel/slick/slick-theme.css';
@@ -124,6 +125,11 @@ a {
     min-width: 100%;
     margin: 0;
     padding: 0;
+}
+.container-1280 {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .container-fluid-1200 {

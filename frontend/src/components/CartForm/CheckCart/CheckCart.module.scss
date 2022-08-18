@@ -1,0 +1,59 @@
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+
+    .process-status-bar {
+        display: inline-block;
+        width: 100%;
+        margin: 40px auto;
+        text-align: center;
+
+        & > span {
+            font-size: 16px;
+            font-weight: 700;
+            color: #767676;
+        }
+
+        & > span::before {
+            content: '>';
+            padding: 0 10px;
+        }
+
+        & > span:first-child:before {
+            content: '';
+            padding: 0;
+        }
+
+        .active {
+            color: var(--text-color);
+            font-weight: 700;
+        }
+    }
+
+    .address-card {
+        display: flex;
+        align-items: center;
+        padding: 20px 24px;
+        margin-bottom: 20px;
+        background-color: var(--white);
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--blacks);
+
+        .addresss {
+            margin-left: 4px;
+        }
+
+        .choose-address {
+            text-align: right;
+        }
+    }
+
+    .top-shipping-sec {
+        padding: 24px;
+        background-color: #fff;
+
+        .shipping-sec {
+            display: flex;
+        }
+    }
+}

@@ -5,14 +5,12 @@ import FlashOnIcon from '@mui/icons-material/FlashOn';
 
 import styles from './ProductItem.module.scss';
 import ButtonLike from './ButtonLike/ButtonLike';
-import ButtonSubmit from '../ButtonSubmit';
+import ButtonSubmit from 'components/ButtonSubmit';
 
 const cx = classNames.bind(styles);
 
 function ProductItem({ data, hover }) {
     const [show, setShow] = useState(false);
-
-    const cartList = [];
 
     const salePercent = Math.floor((data.promotional_price / data.price) * 100);
 
@@ -22,11 +20,6 @@ function ProductItem({ data, hover }) {
 
     const handleOut = () => {
         setShow(false);
-    };
-
-    const handleAddItem = (e) => {
-        e.preventDefault();
-        cartList.push(data);
     };
 
     return (
@@ -58,7 +51,7 @@ function ProductItem({ data, hover }) {
                 </div>
 
                 <p className={cx('product-name')}>{data.name}</p>
-                {hover && <ButtonSubmit value="thêm vào giỏ hàng" hoverItem show={show} onAddItem={handleAddItem} />}
+                {hover && <ButtonSubmit value="thêm vào giỏ hàng" hoverItem show={show} />}
             </Link>
         </div>
     );

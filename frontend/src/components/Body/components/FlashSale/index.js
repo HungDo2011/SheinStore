@@ -1,6 +1,5 @@
 import classNames from 'classnames/bind';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
 
 import styles from './FlashSale.module.scss';

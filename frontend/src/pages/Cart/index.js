@@ -1,5 +1,7 @@
-function Cart() {
-    return <h1>Cart Page</h1>;
+import CartForm from 'components/CartForm';
+
+function Cart({ data }) {
+    return <CartForm data={data} />;
 }
 
 export default Cart;
