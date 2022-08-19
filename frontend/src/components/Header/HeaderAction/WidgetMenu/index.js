@@ -6,6 +6,7 @@ import styles from './WidgetMenu.module.scss';
 import PopperMenu from 'components/Popper/PopperMenu';
 import { widgetMenu } from 'Data/MenuData';
 import { cartListSelector } from 'redux/selectors';
+import { Badge } from 'react-bootstrap';
 
 const cx = classNames.bind(styles);
 
@@ -21,6 +22,10 @@ function WidgetMenu() {
                     item.amount = cardList.length;
                 }
 
+                // if (item.name === 'like') {
+                //     item.amount = cardList.length;
+                // }
+
                 return (
                     <PopperMenu
                         hideOnClick={false}
@@ -31,7 +36,11 @@ function WidgetMenu() {
                     >
                         <Link to={item.link} className={cx('widget-item')}>
                             <CompIcon sx={{ fontSize: 25, lineHeight: 70 }} />
-                            {<i className={cx('badge')}>{item.amount}</i> ?? <></>}
+                            {(
+                                <Badge style={{ fontSize: '8px' }} pill bg="secondary">
+                                    {item.amount}
+                                </Badge>
+                            ) ?? <></>}
                         </Link>
                     </PopperMenu>
                 );

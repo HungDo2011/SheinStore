@@ -2,7 +2,6 @@
     "arrowParens": "always",
     "bracketSameLine": false,
     "bracketSpacing": true,
-    "embeddedLanguageFormatting": "auto",
     "htmlWhitespaceSensitivity": "css",
     "insertPragma": false,
     "jsxSingleQuote": false,
@@ -16,4 +15,4 @@
     "trailingComma": "all",
     "useTabs": false,
     "vueIndentScriptAndStyle": false
-} 
+}

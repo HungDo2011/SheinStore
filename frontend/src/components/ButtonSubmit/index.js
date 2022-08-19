@@ -1,22 +1,36 @@
 import classNames from 'classnames/bind';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { v4 as v4uuid } from 'uuid';
 
 import styles from './ButtonSubmit.module.scss';
-import { addToCart } from 'redux/actions';
+import { addToCart, increaseOne } from 'redux/actions';
+import { cartListSelector } from 'redux/selectors';
 
 const cx = classNames.bind(styles);
 
 function ButtonSubmit({ show, hoverItem, color, size, value, data }) {
+    const cartList = useSelector(cartListSelector);
+
     const dispatch = useDispatch();
 
     const handleAddToCart = () => {
-        dispatch(
-            addToCart({
-                _id: v4uuid(),
-                ...data,
-            }),
-        );
+        if (cartList.length === 0) {
+            return dispatch(
+                addToCart({
+                    _id: v4uuid(),
+                    quantityInCart: 1,
+                    ...data,
+                }),
+            );
+        } else {
+            cartList.map((product, index) => {
+                if (data.id === product.id) {
+                    console.log(product.quantityInCart + 1);
+                    return dispatch(increaseOne(index));
+                }
+            });
+        }
+        console.log(cartList);
     };
 
     return (

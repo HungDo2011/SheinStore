@@ -7,7 +7,7 @@ import styles from './ButtonSize.module.scss';
 
 const cx = classNames.bind(styles);
 
-function ButtonSize() {
+function ButtonSize({ cartPage }) {
     const [active, setActive] = useState(false);
 
     const handleChooseSize = () => {
@@ -27,8 +27,11 @@ function ButtonSize() {
     );
 
     return (
-        <OverlayTrigger trigger={['hover', 'focus']} placement="top-start" overlay={popover}>
-            <button className={cx('btn-size', active && 'active')} onClick={handleChooseSize}>
+        <OverlayTrigger trigger={['hover', 'focus']} placement="top-start" overlay={popover} delay={500}>
+            <button
+                className={cx('btn-size', cartPage && 'btn-cart-page', active && 'active')}
+                onClick={handleChooseSize}
+            >
                 Một cỡ
             </button>
         </OverlayTrigger>
