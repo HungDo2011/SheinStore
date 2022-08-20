@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import { useEffect, useLayoutEffect, useState } from 'react';
+import { useLayoutEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -17,20 +17,14 @@ function CheckCart() {
     const cartList = useSelector(cartListSelector);
     const dispatch = useDispatch();
 
-    const [quantity, setQuantity] = useState(1);
-    const [value, setValue] = useState(quantity);
+    const [value, setValue] = useState(1);
 
-    useEffect(() => {
-        cartList.map((item) => {
-            setValue(item.quantityInCart);
-        });
-    }, [cartList]);
-    console.log(value);
+    const handleChangeValue = (e) => {
+        setValue(e.target.value);
+    };
 
-    const handleChangeValue = (e, index) => {
-        setQuantity(e.target.value);
-
-        dispatch(setQuantityInCart(quantity, index));
+    const handleQuantityInCart = (value, id) => {
+        dispatch(setQuantityInCart(value, id));
     };
 
     useLayoutEffect(() => {
@@ -137,13 +131,14 @@ function CheckCart() {
                                                 className={cx('product-quantity-btn-left')}
                                                 onClick={() => {
                                                     setValue(value - 1);
-                                                    dispatch(decreaseOne(index));
+                                                    dispatch(decreaseOne(product.id));
                                                 }}
                                             >
                                                 -
                                             </button>
                                             <input
-                                                onChange={(e) => handleChangeValue(e, index)}
+                                                onBlur={(value) => handleQuantityInCart(value, product.id)}
+                                                onChange={(e) => handleChangeValue(e, product.id)}
                                                 value={value}
                                                 className={cx('product-quantity-input')}
                                             />
@@ -151,7 +146,7 @@ function CheckCart() {
                                                 className={cx('product-quantity-btn-right')}
                                                 onClick={() => {
                                                     setValue(value + 1);
-                                                    dispatch(increaseOne(index));
+                                                    dispatch(increaseOne(product.id));
                                                 }}
                                             >
                                                 +

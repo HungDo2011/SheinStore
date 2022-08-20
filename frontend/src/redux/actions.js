@@ -5,24 +5,24 @@ export const addToCart = (data) => {
     };
 };
 
-export const increaseOne = (index) => {
+export const increaseOne = (id) => {
     return {
         type: 'cartList/increaseOne',
-        payload: index,
+        id,
     };
 };
 
-export const decreaseOne = (index) => {
+export const decreaseOne = (id) => {
     return {
         type: 'cartList/decreaseOne',
-        payload: index,
+        id,
     };
 };
 
-export const setQuantityInCart = (quantity, index) => {
+export const setQuantityInCart = (quantity, id) => {
     return {
         type: 'cartList/setQuantityInCart',
         payload: quantity,
-        index: index,
+        id,
     };
 };

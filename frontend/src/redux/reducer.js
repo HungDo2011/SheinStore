@@ -11,20 +11,19 @@ const rootReducer = (state = initState, action) => {
             };
 
         case 'cartList/increaseOne':
-            state.cartList.filter((product, index) => {
-                if (index === action.payload) {
+            state.cartList.filter((product) => {
+                if (product.id == action.id) {
                     product.quantityInCart += 1;
+                    return {
+                        ...state,
+                        cartList: [...state.cartList],
+                    };
                 }
-
-                return {
-                    ...state,
-                    cartList: [...state.cartList],
-                };
             });
 
         case 'cartList/decreaseOne':
-            state.cartList.filter((product, index) => {
-                if (index === action.payload) {
+            state.cartList.filter((product) => {
+                if (product.id == action.id) {
                     if (product.quantityInCart <= 0) {
                         product.quantityInCart = 0;
                     } else {

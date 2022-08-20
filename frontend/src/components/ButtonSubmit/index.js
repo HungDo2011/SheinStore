@@ -23,10 +23,9 @@ function ButtonSubmit({ show, hoverItem, color, size, value, data }) {
                 }),
             );
         } else {
-            cartList.map((product, index) => {
+            cartList.map((product) => {
                 if (data.id === product.id) {
-                    console.log(product.quantityInCart + 1);
-                    return dispatch(increaseOne(index));
+                    return dispatch(increaseOne(product.id));
                 }
             });
         }
