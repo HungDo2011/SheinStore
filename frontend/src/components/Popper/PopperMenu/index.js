@@ -1,11 +1,12 @@
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
 import HeadlessTippy from '@tippyjs/react/headless';
 import 'tippy.js/dist/tippy.css';
 
 import { PopperWrapper } from 'components/Popper';
 import styles from './PopperMenu.module.scss';
 import MenuItem from './MenuItem';
-import { Link } from 'react-router-dom';
+import PopperCart from '../PopperCart/PopperCart';
 
 const cx = classNames.bind(styles);
 
@@ -47,12 +48,7 @@ function PopperMenu({ children, items = [], type, placement, hideOnClick }) {
                         hideOnClick={hideOnClick}
                         render={(attrs) => (
                             <PopperWrapper className={cx({ type })} tabIndex="-1" {...attrs} type={type}>
-                                {items.map((item, index) => (
-                                    <div key={index}>
-                                        <img alt="No Product" className={cx('cart-img')} src={item.img} />
-                                        <p className={cx('cart-content')}>{item.content}</p>
-                                    </div>
-                                ))}
+                                <PopperCart />
                             </PopperWrapper>
                         )}
                     >

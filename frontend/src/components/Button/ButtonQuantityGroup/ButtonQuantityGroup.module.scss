@@ -1,0 +1,60 @@
+.product-quantity {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+
+    & > * {
+        border: 1px solid #e6e6e6;
+    }
+
+    .product-quantity-btn-right,
+    .product-quantity-btn-left {
+        width: 24px;
+        height: 100%;
+        background-color: transparent;
+    }
+
+    .product-quantity-btn-left {
+        border-radius: 100px 0 0 100px;
+    }
+
+    .product-quantity-btn-right {
+        border-radius: 0 100px 100px 0;
+    }
+
+    .product-quantity-input {
+        width: 34px;
+        height: 100%;
+        line-height: 28px;
+        text-align: center !important;
+        color: #000;
+        background-color: transparent;
+        font-size: 13px;
+
+        &:focus {
+            border: 1px solid #222;
+        }
+    }
+}
+
+.product-price {
+    width: 70px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    overflow: hidden;
+    color: var(--text-color);
+}
+
+.popper-price {
+    margin: 8px 0;
+    color: var(--text-color);
+
+    span {
+        font-weight: 700;
+    }
+}

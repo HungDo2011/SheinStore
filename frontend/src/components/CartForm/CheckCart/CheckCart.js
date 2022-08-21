@@ -1,40 +1,30 @@
 import classNames from 'classnames/bind';
-import { useLayoutEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import { Col, Container, Row } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux/';
 import RoomOutlinedIcon from '@mui/icons-material/RoomOutlined';
 
 import styles from './CheckCart.module.scss';
 import { cartListSelector } from 'redux/selectors';
-import { increaseOne, decreaseOne, setQuantityInCart } from 'redux/actions';
-import ButtonSize from 'components/ButtonSize';
+import ButtonSize from 'components/Button/ButtonSize';
+import ButtonQuantityGroup from 'components/Button/ButtonQuantityGroup/ButtonQuantityGroup';
+import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
+import images from 'assets/images';
+import ButtonLike from 'components/Product/ProductItem/ButtonLike/ButtonLike';
 
 const cx = classNames.bind(styles);
 
+const styleCol = {
+    padding: '0 5px',
+    marginBottom: 30,
+};
+
 function CheckCart() {
     const cartList = useSelector(cartListSelector);
-    const dispatch = useDispatch();
-
-    const [value, setValue] = useState(1);
-
-    const handleChangeValue = (e) => {
-        setValue(e.target.value);
-    };
-
-    const handleQuantityInCart = (value, id) => {
-        dispatch(setQuantityInCart(value, id));
-    };
-
-    useLayoutEffect(() => {
-        if (value < 0) {
-            setValue(0);
-        }
-    });
 
     return (
-        <Container bsPrefix={cx('container-fluid-1200', 'wrapper')} style={{ paddingBottom: 30 }}>
+        <Container bsPrefix={cx('container-fluid-1200', 'wrapper')} style={{ padding: '0 10px 30px' }}>
             <div className={cx('process-status-bar')}>
                 <span className={cx('active')}>Giỏ hàng</span>
                 <span>Đặt hàng</span>
@@ -43,7 +33,7 @@ function CheckCart() {
             </div>
 
             <Row>
-                <Col md={8}>
+                <Col md={8} style={styleCol}>
                     <Row bsPrefix={cx('address-card')}>
                         <Col md={8}>
                             <p className={'addresss'}>
@@ -55,6 +45,7 @@ function CheckCart() {
                             <p className={cx('choose-address')}>Option</p>
                         </Col>
                     </Row>
+
                     <Row bsPrefix={cx('top-shipping-sec')}>
                         <div className={cx('shipping-sec')}>
                             <LocalShippingOutlinedIcon style={{ marginRight: 8, fontSize: 24 }} />
@@ -66,12 +57,19 @@ function CheckCart() {
                             </div>
                         </div>
                     </Row>
+
                     <Row>
                         <div className={cx('cartlist-header')}>
                             <h1 className={cx('header-title')}>Tóm Tắt Mặt Hàng({cartList.length})</h1>
                             <div className={cx('cart-table')}>
                                 <ul className={cx('table-row')}>
-                                    <li className={cx('table-item')}>Hình ảnh</li>
+                                    <li className={cx('table-item')} style={{ display: 'inline-flex' }}>
+                                        <label className={cx('item-label')}>
+                                            <input type="checkbox" />
+                                            <i className={cx('checkmark')}></i>
+                                        </label>
+                                        <span style={{ marginLeft: 10 }}>Tất cả</span>
+                                    </li>
 
                                     <li className={cx('table-item')}>Sản phẩm</li>
                                     <li className={cx('table-item')}>Giá</li>
@@ -94,72 +92,85 @@ function CheckCart() {
                         </div>
                     </Row>
 
-                    {cartList.map((product, index) => {
-                        const price = product.promotional_price > 0 ? product.promotional_price : product.price;
-                        let totalPrice = (price * value * 1000).toString().split('');
-
-                        totalPrice.splice(-3, 0, '.');
-                        totalPrice = totalPrice.join('');
-
+                    {cartList.map((product) => {
                         return (
-                            <Row
-                                key={product._id}
-                                style={{
-                                    padding: ' 20px 24px',
-                                    backgroundColor: 'var(--white)',
-                                    borderBottom: '1px solid #e5e5e5',
-                                }}
-                            >
-                                <Col md={2}>
-                                    <Link to={`/product/${product.code_SKU}`}>
-                                        <img
-                                            src={product.img}
-                                            alt={product.name}
-                                            style={{ width: '100%', height: '100%' }}
-                                        />
-                                    </Link>
-                                </Col>
-                                <Col md={10} style={{ paddingLeft: 12 }}>
-                                    <Link to={`/product/${product.code_SKU}`}>
-                                        <h1 className={cx('product-name')}>{product.name}</h1>
-                                    </Link>
-                                    <div className={cx('product-group-price')}>
-                                        <ButtonSize cartPage />
-                                        <p className={cx('product-price')}>{price}₫</p>
-                                        <div className={cx('product-quantity')}>
-                                            <button
-                                                className={cx('product-quantity-btn-left')}
-                                                onClick={() => {
-                                                    setValue(value - 1);
-                                                    dispatch(decreaseOne(product.id));
-                                                }}
-                                            >
-                                                -
-                                            </button>
-                                            <input
-                                                onBlur={(value) => handleQuantityInCart(value, product.id)}
-                                                onChange={(e) => handleChangeValue(e, product.id)}
-                                                value={value}
-                                                className={cx('product-quantity-input')}
-                                            />
-                                            <button
-                                                className={cx('product-quantity-btn-right')}
-                                                onClick={() => {
-                                                    setValue(value + 1);
-                                                    dispatch(increaseOne(product.id));
-                                                }}
-                                            >
-                                                +
-                                            </button>
-                                        </div>
-                                        <div className={cx('product-price')}>{totalPrice}₫</div>
+                            <div key={product.id}>
+                                <Row
+                                    style={{
+                                        padding: ' 20px 24px',
+                                        backgroundColor: 'var(--white)',
+                                        borderBottom: '1px solid #e5e5e5',
+                                    }}
+                                >
+                                    <div className={cx('check-box')}>
+                                        <label className={cx('item-label')}>
+                                            <input type="checkbox" />
+                                            <i className={cx('checkmark')}></i>
+                                        </label>
                                     </div>
-                                </Col>
-                            </Row>
+
+                                    <Col md={3}>
+                                        <Link to={`/product/${product.code_SKU}`}>
+                                            <img
+                                                src={product.img}
+                                                alt={product.name}
+                                                style={{ width: '100%', height: '100%' }}
+                                            />
+                                        </Link>
+                                    </Col>
+                                    <Col md={8} style={{ paddingLeft: 12 }}>
+                                        <Link to={`/product/${product.code_SKU}`}>
+                                            <h1 className={cx('product-name')}>{product.name}</h1>
+                                        </Link>
+                                        <div className={cx('product-group-price')}>
+                                            <ButtonSize cartPage />
+                                            <ButtonQuantityGroup product={product} />
+                                        </div>
+
+                                        <div
+                                            style={{
+                                                display: 'inline-flex',
+                                                margin: '50px 20px 20px',
+                                                alignItems: 'center',
+                                            }}
+                                        >
+                                            <ButtonLike value="Lưu lại sau" style={{ fontSize: 24 }} />
+                                            <p style={{ marginLeft: 4 }}>Lưu lại sau</p>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </div>
                         );
                     })}
                 </Col>
-                <Col md={4}>me</Col>
+                <Col md={4} style={styleCol}>
+                    <div className={cx('payment')}>
+                        <h4 className={cx('total-title')}>Tóm tắt Đơn hàng</h4>
+                        <div className={cx('price-box')}>
+                            <p className={cx('total-price-title')}>Tổng tiền thanh toán</p>
+                            <p className={cx('total-price')}>
+                                0<span>₫</span>
+                            </p>
+                        </div>
+                        <div className={cx('check-btn')}>
+                            <ButtonSubmit value="thanh toán" show color="btn-black" size="btn-large" />
+                            <p className={cx('point-tip')}>Dùng mã giảm giá, Điểm SHEIN trong bước tiếp theo</p>
+                        </div>
+                    </div>
+
+                    <div className={cx('accept-bank')}>
+                        <h1 className={cx('accept-title')}>chúng tôi chấp nhận</h1>
+                        <div className={cx('bank-img')}>
+                            <img src={images.payMentAE} alt="Bank Accept" />
+                            <img src={images.payMentCOD} alt="Bank Accept" />
+                            <img src={images.payMentVISA} alt="Bank Accept" />
+                            <img src={images.payMentPayPal} alt="Bank Accept" />
+                            <img src={images.payMentJCB} alt="Bank Accept" />
+                            <img src={images.payMentMaestro} alt="Bank Accept" />
+                            <img src={images.payMentMC} alt="Bank Accept" />
+                        </div>
+                    </div>
+                </Col>
             </Row>
         </Container>
     );

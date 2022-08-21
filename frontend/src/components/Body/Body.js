@@ -8,7 +8,7 @@ import EventBox from './components/EventBox';
 import FlashSale from './components/FlashSale';
 import HotZone from './components/HotZone';
 import PromoBox from './components/PromotionBox';
-import ButtonSubmit from 'components/ButtonSubmit';
+import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 
 const cx = classNames.bind(styles);
 
@@ -36,8 +36,9 @@ function Body({ data, type }) {
             <EventBox data={data} type={code} />
             <p style={{ margin: '50px 0', height: 40 }}>
                 <Link
+                    id="RouterNavLink"
                     to={`/${type}-products`}
-                    style={{ textDecoration: 'none', float: 'right', width: '12%', padding: '0 20px' }}
+                    style={{ textDecoration: 'none', width: '50%', padding: '0 20px' }}
                 >
                     <ButtonSubmit value="Xem tất cả >>" show size="btn-non-boder" />
                 </Link>

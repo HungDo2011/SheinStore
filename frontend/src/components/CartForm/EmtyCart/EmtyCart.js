@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 import styles from './EmtyCart.module.scss';
 import images from 'assets/images';
 import config from 'config';
-import ButtonSubmit from 'components/ButtonSubmit';
+import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 
 const cx = classNames.bind(styles);
 
@@ -17,7 +17,7 @@ function EmtyCart() {
                 <p className={cx('cart-title')}>giỏ hàng của bạn trống</p>
                 <div style={{ paddingBottom: 50 }}>
                     <Link to={config.routesConfig.womenProducts}>
-                        <ButtonSubmit show value="xem thêm" color="btn-black" size="btn-large" />
+                        <ButtonSubmit show value="xem thêm" color="btn-black" size="btn-350" />
                     </Link>
                 </div>
             </div>

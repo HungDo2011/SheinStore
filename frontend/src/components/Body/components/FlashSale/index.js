@@ -6,7 +6,7 @@ import styles from './FlashSale.module.scss';
 import images from 'assets/images';
 import CountDown from 'components/CountDown/CountDown';
 import ProductItem from 'components/Product/ProductItem';
-import ButtonSlide from 'components/ButtonSlide';
+import ButtonSlide from 'components/Button/ButtonSlide';
 
 const cx = classNames.bind(styles);
 

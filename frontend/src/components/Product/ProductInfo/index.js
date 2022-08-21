@@ -8,7 +8,7 @@ import images from 'assets/images';
 import { publicRoutes } from 'routes/routes';
 import ProductThumbnail from './ProductThumbnail';
 import Product from './Product';
-import ButtonSubmit from 'components/ButtonSubmit';
+import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 import ListItem from '../ProductList/ListItem/ListItem';
 
 const cx = classNames.bind(styles);

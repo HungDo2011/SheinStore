@@ -5,11 +5,11 @@ import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined';
 
 import styles from './Product.module.scss';
-import ButtonSubmit from 'components/ButtonSubmit';
+import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 import ButtonLike from 'components/Product/ProductItem/ButtonLike/ButtonLike';
 import CountDown from 'components/CountDown/CountDown';
-import ButtonSize from 'components/ButtonSize';
-import SizeHelp from 'components/ButtonSize/SizeHelp';
+import ButtonSize from 'components/Button/ButtonSize';
+import SizeHelp from 'components/Button/ButtonSize/SizeHelp';
 
 const cx = classNames.bind(styles);
 
@@ -78,7 +78,7 @@ function Product({ data }) {
 
             <div className={cx('product-add')}>
                 <div className={cx('btn-submit')}>
-                    <ButtonSubmit value="thêm vào giỏ hàng" show color="btn-black" size="btn-large" data={data} />
+                    <ButtonSubmit value="thêm vào giỏ hàng" show color="btn-black" size="btn-350" data={data} />
                 </div>
                 <div className={cx('btn-like')}>
                     <ButtonLike style={{ fontSize: 32 }} />

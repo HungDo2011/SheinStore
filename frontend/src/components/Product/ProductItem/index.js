@@ -5,7 +5,7 @@ import FlashOnIcon from '@mui/icons-material/FlashOn';
 
 import styles from './ProductItem.module.scss';
 import ButtonLike from './ButtonLike/ButtonLike';
-import ButtonSubmit from 'components/ButtonSubmit';
+import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 
 const cx = classNames.bind(styles);
 
@@ -38,13 +38,13 @@ function ProductItem({ data, hover }) {
                 <div className={cx('product-price')}>
                     {data.promotional_price > 0 ? (
                         <>
-                            <p className={cx('new-price')}>{data.promotional_price}</p>
-                            <p className={cx('old-price')}>{data.price}</p>
+                            <p className={cx('new-price')}>{data.promotional_price}₫</p>
+                            <p className={cx('old-price')}>{data.price}₫</p>
                             <ButtonLike right data={data} />
                         </>
                     ) : (
                         <>
-                            <p className={cx('price')}>{data.price}</p>
+                            <p className={cx('price')}>{data.price}₫</p>
                             <ButtonLike right data={data} />
                         </>
                     )}

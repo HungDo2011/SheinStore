@@ -1,5 +1,6 @@
 const initState = {
     cartList: [],
+    totalPay: 0,
 };
 
 const rootReducer = (state = initState, action) => {
@@ -12,42 +13,22 @@ const rootReducer = (state = initState, action) => {
 
         case 'cartList/increaseOne':
             state.cartList.filter((product) => {
-                if (product.id == action.id) {
-                    product.quantityInCart += 1;
-                    return {
-                        ...state,
-                        cartList: [...state.cartList],
-                    };
+                if (action.payload.id === product.id) {
+                    return (product.quantityInCart += 1);
                 }
             });
+            return state;
 
         case 'cartList/decreaseOne':
             state.cartList.filter((product) => {
-                if (product.id == action.id) {
-                    if (product.quantityInCart <= 0) {
-                        product.quantityInCart = 0;
-                    } else {
-                        product.quantityInCart -= 1;
-                    }
+                if (action.payload.id === product.id) {
+                    product.quantityInCart -= 1;
                 }
-
-                return {
-                    ...state,
-                    cartList: [...state.cartList],
-                };
-            });
-
-        case 'cartList/setQuantityInCart':
-            state.cartList.filter((product, index) => {
-                if (index === action.index) {
-                    product.quantityInCart = action.payload;
+                if (product.quantityInCart <= 0) {
+                    product.quantityInCart = 0;
                 }
-
-                return {
-                    ...state,
-                    cartList: [...state.cartList],
-                };
             });
+            return state;
 
         default:
             return state;

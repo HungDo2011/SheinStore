@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import styles from './EventBox.module.scss';
 import images from 'assets/images';
 import ProductItem from 'components/Product/ProductItem';
-import ButtonSlide from 'components/ButtonSlide';
+import ButtonSlide from 'components/Button/ButtonSlide';
 
 const cx = classNames.bind(styles);
 
@@ -14,7 +14,7 @@ function EventBox({ data, type }) {
         <div className={cx('wrapper')}>
             <h1 className={cx('box-title')}>#dailyprops</h1>
             <img src={images.eventBox} alt="Event Box" className={cx('box-img')} />
-            <Row>
+            <Row className={cx('wrapper-slider')}>
                 <Slider
                     dots
                     pauseOnHover

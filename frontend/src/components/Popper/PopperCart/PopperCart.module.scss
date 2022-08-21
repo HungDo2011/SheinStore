@@ -1,0 +1,40 @@
+.wrapper,
+.cart {
+    z-index: 10;
+
+    &:hover > * {
+        z-index: 10;
+    }
+}
+
+.cart {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+// Cart Popper
+.cart-img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+}
+
+.cart-content {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin: 22px 0;
+}
+
+// .total-price {
+//     margin-top: 10px;
+//     text-align: right;
+
+//     span {
+//         font-size: 20px;
+//         font-weight: 700;
+//         vertical-align: middle;
+//         color: #fa6338;
+//     }
+// }
