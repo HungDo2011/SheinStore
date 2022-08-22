@@ -1,6 +1,5 @@
 import classNames from 'classnames/bind';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import styles from './Body.module.scss';
 import { publicRoutes } from 'routes/routes';
@@ -9,6 +8,7 @@ import FlashSale from './components/FlashSale';
 import HotZone from './components/HotZone';
 import PromoBox from './components/PromotionBox';
 import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -35,12 +35,10 @@ function Body({ data, type }) {
             <HotZone />
             <EventBox data={data} type={code} />
             <p style={{ margin: '50px 0', height: 40 }}>
-                <Link
-                    id="RouterNavLink"
-                    to={`/${type}-products`}
-                    style={{ textDecoration: 'none', width: '50%', padding: '0 20px' }}
-                >
-                    <ButtonSubmit value="Xem tất cả >>" show size="btn-non-boder" />
+                <Link to={`/${type}-products`}>
+                    <button className={cx('btn')} value="Xem tất cả >>" show size="btn-non-boder">
+                        Xem tất cả {'>>'}
+                    </button>
                 </Link>
             </p>
         </div>

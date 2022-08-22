@@ -29,8 +29,7 @@ function ListItem({ data, type, lengthRule }) {
     return (
         <div className={cx('product-list')}>
             <Row>
-                {/* eslint-disable-next-line */}
-                {data.map((item, index) => {
+                {data.filter((item, index) => {
                     if (code.includes(item.type) && index < lengthRule) {
                         return (
                             <Col bsPrefix={cx('product-item', 'col-md-3')} key={item.id}>

@@ -225,48 +225,4 @@
     &:first-child {
         display: block;
     }
-
-    //CSS Input
-    .checkmark {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 18px;
-        width: 18px;
-        border: 1px solid #ccc;
-        background-color: var(--white);
-    }
-
-    /* When the checkbox is checked, add a blue background */
-    input:checked ~ .checkmark {
-        background-color: #000;
-    }
-
-    /* Create the checkmark/indicator (hidden when not checked) */
-    .checkmark:after {
-        content: '';
-        position: absolute;
-        display: none;
-    }
-
-    /* Show the checkmark when checked */
-    input:checked ~ .checkmark:after {
-        display: block;
-    }
-
-    /* Style the checkmark/indicator */
-    .checkmark:after {
-        left: 5px;
-        top: 0px;
-        width: 6px;
-        height: 10px;
-        border: 1px solid #ccc;
-        border-width: 0 3px 3px 0;
-        transform: rotate(45deg);
-    }
-
-    span {
-        padding-left: 6px;
-        text-align: left;
-    }
 }

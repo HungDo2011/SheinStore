@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 import { Link, useLocation } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useLayoutEffect } from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 
 import styles from './ProductInfo.module.scss';
@@ -8,7 +8,6 @@ import images from 'assets/images';
 import { publicRoutes } from 'routes/routes';
 import ProductThumbnail from './ProductThumbnail';
 import Product from './Product';
-import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 import ListItem from '../ProductList/ListItem/ListItem';
 
 const cx = classNames.bind(styles);
@@ -32,12 +31,13 @@ function ProductInfo({ data }) {
         }
     });
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         // eslint-disable-next-line
         data.filter((item) => {
             if (item.code_SKU === code) {
                 setProduct(item);
                 setItemName(item.name);
+
                 // eslint-disable-next-line
                 publicRoutes.filter((e) => {
                     if (e.code.includes(item.type)) {
@@ -83,8 +83,8 @@ function ProductInfo({ data }) {
                 <ListItem data={data} type={type} lengthRule="12" />
             </Row>
             <Row style={{ marginTop: 50 }}>
-                <Link to={`/${type}-products`} style={{ textDecoration: 'none' }}>
-                    <ButtonSubmit value="Xem thêm" show size="btn-medium" color="btn-black" />
+                <Link to={`/${type}-products`}>
+                    <button className={cx('btn-more')}>Xem thêm</button>
                 </Link>
             </Row>
             <Row style={{ marginTop: 70 }}>

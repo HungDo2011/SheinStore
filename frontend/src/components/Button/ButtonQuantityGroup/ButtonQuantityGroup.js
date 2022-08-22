@@ -1,17 +1,11 @@
 import classNames from 'classnames/bind';
 import { useEffect, useLayoutEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux/';
 
 import styles from './ButtonQuantityGroup.module.scss';
-import { cartListSelector } from 'redux/selectors';
-import { increaseOne, decreaseOne } from 'redux/actions';
 
 const cx = classNames.bind(styles);
 
-function ButtonQuantityGroup({ product, cart }) {
-    const dispatch = useDispatch();
-    const cartList = useSelector(cartListSelector);
-
+function ButtonQuantityGroup({ product, popper }) {
     const [flag, setFlag] = useState(false);
 
     const [value, setValue] = useState(1);
@@ -23,14 +17,6 @@ function ButtonQuantityGroup({ product, cart }) {
     totalPrice.splice(-3, 0, '.');
     totalPrice = totalPrice.join('');
 
-    useEffect(() => {
-        cartList.map((item) => {
-            if (item.id === product.id) {
-                setValue(item.quantityInCart);
-            }
-        });
-    }, [flag, cartList]);
-
     useLayoutEffect(() => {
         if (value < 0) {
             setValue(0);
@@ -39,7 +25,7 @@ function ButtonQuantityGroup({ product, cart }) {
 
     return (
         <>
-            {cart ? (
+            {popper ? (
                 <p className={cx('popper-price')}>
                     Giá sản phẩm: <span>{price}₫</span>
                 </p>
@@ -51,24 +37,22 @@ function ButtonQuantityGroup({ product, cart }) {
                     className={cx('product-quantity-btn-left')}
                     onClick={() => {
                         setFlag(!flag);
-                        dispatch(decreaseOne(product));
                     }}
                 >
                     -
                 </button>
-                <input value={value} className={cx('product-quantity-input')} disabled={cart} />
+                <input value={value} className={cx('product-quantity-input')} disabled={popper} />
                 <button
                     className={cx('product-quantity-btn-right')}
                     onClick={() => {
                         setFlag(!flag);
-                        dispatch(increaseOne(product));
                     }}
                 >
                     +
                 </button>
             </div>
 
-            {cart ? (
+            {popper ? (
                 <p className={cx('popper-price')}>
                     Tổng cộng <span>{totalPrice}₫</span>{' '}
                 </p>

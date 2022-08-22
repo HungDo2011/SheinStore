@@ -21,7 +21,7 @@ function App() {
             .then((res) => {
                 return setData(res.data);
             })
-            .catch((e) => alert('Lỗi trang wed'));
+            .catch((e) => alert('Lỗi tải dữ liệu! '));
     }, []);
 
     return (

@@ -1,29 +1,27 @@
 import classNames from 'classnames/bind';
-import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 
 import styles from './PopperCart.module.scss';
-import { cartListSelector, totalPaySelector } from 'redux/selectors';
-import ProductSearchItem from 'components/Header/HeaderAction/HeaderSearch/ProductSearchItem';
-import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 import images from 'assets/images';
 import config from 'config';
+import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
+import ProductSearchItem from 'components/Header/HeaderAction/HeaderSearch/ProductSearchItem';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
 function PopperCart() {
-    const cartList = useSelector(cartListSelector);
-
-    return cartList.length > 0 ? (
+    return true ? (
         <div className={cx('cart')}>
-            {cartList.map((item) => (
+            {/* {cartList.map((item) => (
                 <Link to={`/product/${item.code_SKU}`} key={item.id}>
                     <ProductSearchItem item={item} key={item.id} cart />
                 </Link>
-            ))}
+            ))} */}
 
             <Link to={config.routesConfig.cart}>
-                <ButtonSubmit show value="xem giỏ hàng" cart color="btn-black" />
+                <button className={cx('btn-mini-cart')} show value="xem giỏ hàng" color="btn-black">
+                    xem giỏ hàng
+                </button>
             </Link>
         </div>
     ) : (

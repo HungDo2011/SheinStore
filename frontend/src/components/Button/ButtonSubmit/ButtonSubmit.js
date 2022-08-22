@@ -1,41 +1,25 @@
 import classNames from 'classnames/bind';
-import { useDispatch, useSelector } from 'react-redux';
-import { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
 
 import styles from './ButtonSubmit.module.scss';
-import { addToCart, increaseOne } from 'redux/actions';
-import { cartListSelector } from 'redux/selectors';
+import { addToCart } from 'redux/Cart/cartSlice';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
 function ButtonSubmit({ show, hoverItem, cart, color, size, value, data }) {
-    const cartList = useSelector(cartListSelector);
+    const handleAddToCart = () => {
+        console.log(data);
+        dispatch(
+            addToCart({
+                id: data.id,
+                product: { ...data },
+                quantity: 1,
+            }),
+        );
+    };
 
     const dispatch = useDispatch();
-
-    const handleAddToCart = () => {
-        if (cartList.length === 0) {
-            dispatch(
-                addToCart({
-                    quantityInCart: 1,
-                    ...data,
-                }),
-            );
-        } else if (cartList.length > 0) {
-            cartList.map((item) => {
-                if (item.id === data.id) {
-                    dispatch(increaseOne(data));
-                } else if (item.id !== data.id) {
-                    dispatch(
-                        addToCart({
-                            quantityInCart: 1,
-                            ...data,
-                        }),
-                    );
-                }
-            });
-        }
-    };
 
     return (
         <button

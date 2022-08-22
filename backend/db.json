@@ -375,8 +375,8 @@
     {
       "id": 41,
       "name": "Quần Short Nam Dây kéo Túi màu trơn Đường phố",
-      "price": 306,
-      "promotional_price": 175.1,
+      "price": "306.000",
+      "promotional_price": "175.100",
       "img": "https://img.ltwebstatic.com/images3_pi/2022/05/06/1651834881caf4c5b90088d6209f45b2eab8102c3c_thumbnail_220x293.webp",
       "type": "sm",
       "code_SKU": "2204225222846840"

@@ -1,4 +1,5 @@
 import classNames from 'classnames/bind';
+import { useLayoutEffect, useState } from 'react';
 import FlashOnIcon from '@mui/icons-material/FlashOn';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import LocalAtmIcon from '@mui/icons-material/LocalAtm';
@@ -16,12 +17,10 @@ const cx = classNames.bind(styles);
 const styleIconShipping = { fontSize: 24, color: '#198055' };
 
 function Product({ data }) {
+    //Handle Price
     const salePercent = Math.floor((data.promotional_price / data.price) * 100);
-
     const saleThrifty = data.price * 1000 - data.promotional_price * 1000;
-
     let result = saleThrifty.toString().split('');
-
     result.splice(-3, 0, '.');
     result = result.join('');
 

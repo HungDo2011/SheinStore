@@ -1,17 +1,12 @@
 import classNames from 'classnames/bind';
-import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
-import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import { Col, Container, Row } from 'react-bootstrap';
+import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import RoomOutlinedIcon from '@mui/icons-material/RoomOutlined';
 
 import styles from './CheckCart.module.scss';
-import { cartListSelector } from 'redux/selectors';
-import ButtonSize from 'components/Button/ButtonSize';
-import ButtonQuantityGroup from 'components/Button/ButtonQuantityGroup/ButtonQuantityGroup';
-import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 import images from 'assets/images';
-import ButtonLike from 'components/Product/ProductItem/ButtonLike/ButtonLike';
+import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
+import ProductInCart from 'components/Product/ProductInCart/ProductInCart';
 
 const cx = classNames.bind(styles);
 
@@ -21,8 +16,6 @@ const styleCol = {
 };
 
 function CheckCart() {
-    const cartList = useSelector(cartListSelector);
-
     return (
         <Container bsPrefix={cx('container-fluid-1200', 'wrapper')} style={{ padding: '0 10px 30px' }}>
             <div className={cx('process-status-bar')}>
@@ -60,7 +53,7 @@ function CheckCart() {
 
                     <Row>
                         <div className={cx('cartlist-header')}>
-                            <h1 className={cx('header-title')}>Tóm Tắt Mặt Hàng({cartList.length})</h1>
+                            <h1 className={cx('header-title')}>Tóm Tắt Mặt Hàng</h1>
                             <div className={cx('cart-table')}>
                                 <ul className={cx('table-row')}>
                                     <li className={cx('table-item')} style={{ display: 'inline-flex' }}>
@@ -92,56 +85,7 @@ function CheckCart() {
                         </div>
                     </Row>
 
-                    {cartList.map((product) => {
-                        return (
-                            <div key={product.id}>
-                                <Row
-                                    style={{
-                                        padding: ' 20px 24px',
-                                        backgroundColor: 'var(--white)',
-                                        borderBottom: '1px solid #e5e5e5',
-                                    }}
-                                >
-                                    <div className={cx('check-box')}>
-                                        <label className={cx('item-label')}>
-                                            <input type="checkbox" />
-                                            <i className={cx('checkmark')}></i>
-                                        </label>
-                                    </div>
-
-                                    <Col md={3}>
-                                        <Link to={`/product/${product.code_SKU}`}>
-                                            <img
-                                                src={product.img}
-                                                alt={product.name}
-                                                style={{ width: '100%', height: '100%' }}
-                                            />
-                                        </Link>
-                                    </Col>
-                                    <Col md={8} style={{ paddingLeft: 12 }}>
-                                        <Link to={`/product/${product.code_SKU}`}>
-                                            <h1 className={cx('product-name')}>{product.name}</h1>
-                                        </Link>
-                                        <div className={cx('product-group-price')}>
-                                            <ButtonSize cartPage />
-                                            <ButtonQuantityGroup product={product} />
-                                        </div>
-
-                                        <div
-                                            style={{
-                                                display: 'inline-flex',
-                                                margin: '50px 20px 20px',
-                                                alignItems: 'center',
-                                            }}
-                                        >
-                                            <ButtonLike value="Lưu lại sau" style={{ fontSize: 24 }} />
-                                            <p style={{ marginLeft: 4 }}>Lưu lại sau</p>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        );
-                    })}
+                    {/* <ProductInCart /> */}
                 </Col>
                 <Col md={4} style={styleCol}>
                     <div className={cx('payment')}>
