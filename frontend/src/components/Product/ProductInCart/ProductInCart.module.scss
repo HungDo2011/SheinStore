@@ -1,0 +1,92 @@
+.product-name {
+    width: 94%;
+    padding-left: 24px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: var(--text-color);
+    text-align: left;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    cursor: pointer;
+
+    &:hover {
+        font-weight: 700;
+    }
+}
+
+.product-group-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 35px;
+
+    .button-like {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover > * {
+            color: #000;
+            font-weight: 700;
+        }
+    }
+}
+
+// Payment Form
+.payment {
+    padding: 24px;
+    background-color: var(--white);
+
+    .total-title {
+        width: 100%;
+        margin-bottom: 16px;
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--text-color);
+    }
+
+    .price-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+
+        .total-price {
+            font-size: 24px;
+            color: var(--text-color);
+            letter-spacing: 2px;
+        }
+    }
+
+    .check-btn {
+        margin-top: 18px;
+
+        .point-tip {
+            margin-top: 16px;
+            font-size: 14px;
+            color: #767676;
+            text-align: left;
+        }
+    }
+}
+
+.accept-bank {
+    margin-top: 48px;
+    background: #f7f8fa;
+
+    .accept-title {
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: #222;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+
+    .bank-img {
+        img {
+            width: 51px;
+            margin-bottom: 15px;
+            margin-right: 15px;
+        }
+    }
+}

@@ -3,7 +3,6 @@ import { createSlice } from '@reduxjs/toolkit';
 const cartSlice = createSlice({
     name: 'cart',
     initialState: {
-        hasProduct: false,
         cartItems: [],
     },
     reducers: {
@@ -11,7 +10,6 @@ const cartSlice = createSlice({
             // newProduct ={id, product, quantity }
             const newProduct = action.payload;
             const index = state.cartItems.findIndex((item) => item.id === newProduct.id);
-            state.hasProduct = true;
 
             if (index >= 0) {
                 state.cartItems[index].quantity += newProduct.quantity;
@@ -23,10 +21,29 @@ const cartSlice = createSlice({
         setQuantity(state, action) {
             const { id, quantity } = action.payload;
             // check if product is available in cart
-            const index = state.cartItems.findIndex((item) => (item.id = id));
+            const index = state.cartItems.findIndex((item) => item.id === id);
 
             if (index >= 0) {
                 state.cartItems[index].quantity = quantity;
+            }
+        },
+
+        increasOne(state, action) {
+            const idNeedIncrease = action.payload;
+            const index = state.cartItems.findIndex((item) => item.id === idNeedIncrease);
+
+            state.cartItems[index].quantity += 1;
+        },
+
+        decreaseOne(state, action) {
+            const idNeedIncrease = action.payload;
+            const index = state.cartItems.findIndex((item) => item.id === idNeedIncrease);
+
+            if (state.cartItems[index].quantity <= 0) {
+                state.cartItems[index].quantity = 0;
+                state.cartItems = state.cartItems.filter((item) => item.id !== idNeedIncrease);
+            } else {
+                state.cartItems[index].quantity -= 1;
             }
         },
 
@@ -40,6 +57,6 @@ const cartSlice = createSlice({
 
 const { actions, reducer } = cartSlice;
 
-export const { addToCart, setQuantity, removeProduct } = actions;
+export const { addToCart, setQuantity, increasOne, decreaseOne, removeProduct } = actions;
 
 export default reducer;

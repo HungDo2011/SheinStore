@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import FlashOnIcon from '@mui/icons-material/FlashOn';
 
 import styles from './ProductItem.module.scss';
-import ButtonLike from './ButtonLike/ButtonLike';
+import ButtonLike from 'components/Button/ButtonLike/ButtonLike';
 import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 
 const cx = classNames.bind(styles);

@@ -1,4 +1,5 @@
 import classNames from 'classnames/bind';
+import { useSelector } from 'react-redux';
 import Slider from 'react-slick';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -7,17 +8,19 @@ import EmtyCart from './EmtyCart/EmtyCart';
 import CheckCart from './CheckCart/CheckCart';
 import ButtonSlide from 'components/Button/ButtonSlide';
 import ProductItem from 'components/Product/ProductItem';
-import { hasProduct } from 'redux/selector';
+import { cartItemsCountSelector } from 'redux/Cart/cartSelector';
 
 const cx = classNames.bind(styles);
 
 function CartForm({ data }) {
+    const quantityInCart = useSelector(cartItemsCountSelector) === 0;
+
     return (
         <>
-            <div style={{ backgroundColor: '#f7f8fa' }}>{hasProduct ? <EmtyCart /> : <CheckCart />}</div>
+            <div style={{ backgroundColor: '#f7f8fa' }}>{quantityInCart ? <EmtyCart /> : <CheckCart />}</div>
             <Container bsPrefix={cx('container-1280', 'wrapper')} style={{ marginTop: 50 }}>
                 <h1 className={cx('list-title')}>
-                    {true ? 'có thể bạn muốn thêm vào giỏ hàng' : 'có thể bạn cũng thích'}
+                    {quantityInCart ? 'có thể bạn muốn thêm vào giỏ hàng' : 'có thể bạn cũng thích'}
                 </h1>
                 <Row>
                     <Slider

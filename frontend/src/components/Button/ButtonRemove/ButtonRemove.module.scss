@@ -1,0 +1,26 @@
+.btn-remove-popper {
+    position: absolute;
+    bottom: -2px;
+    right: 0px;
+    padding: 4px;
+    z-index: 10;
+
+    & > * {
+        font-size: 14px !important;
+    }
+}
+
+.button-remove {
+    & > * {
+        font-size: 20px !important;
+    }
+}
+
+.btn-remove-popper,
+.button-remove {
+    color: #767373;
+
+    &:hover {
+        color: var(--text-color);
+    }
+}

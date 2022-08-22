@@ -1,6 +1,8 @@
 .wrapper,
 .cart {
     z-index: 10;
+    overflow-x: hidden;
+    overflow-y: auto;
 
     &:hover > * {
         z-index: 10;
@@ -8,28 +10,11 @@
 }
 
 .cart {
-    max-height: 500px;
-    overflow-y: scroll;
-
-    .btn-mini-cart {
-        width: 100%;
-        height: 54px;
-        line-height: 52px;
-        padding: 0 30px;
-        font-size: 18px;
-        font-weight: 700;
-        background-color: var(--black);
-        color: var(--white);
-
-        &:hover {
-            background: rgba(34, 34, 34, 0.8);
-            color: #fff;
-            text-decoration: none;
-        }
-    }
+    max-height: 596px;
+    overflow-y: auto;
 }
 
-// Cart Popper
+// Emty mini cart
 .cart-img {
     display: block;
     width: 64px;
@@ -44,14 +29,129 @@
     margin: 22px 0;
 }
 
-// .total-price {
-//     margin-top: 10px;
-//     text-align: right;
+//Has product
 
-//     span {
-//         font-size: 20px;
-//         font-weight: 700;
-//         vertical-align: middle;
-//         color: #fa6338;
-//     }
-// }
+.has-product {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 5px 0 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: var(--white);
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba($color: #000000, $alpha: 0.1);
+    }
+}
+
+.product-img {
+    width: 90px;
+    margin-right: 16px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.product-info {
+    width: 222px;
+    padding: 0 4px;
+
+    .product-name {
+        width: 90%;
+        padding-top: 4px;
+        font-size: 14px;
+        color: var(--text-color);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .price {
+        font-weight: 700;
+        color: var(--text-color);
+    }
+
+    .product-quantity {
+        display: flex;
+        align-items: center;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        font-size: 16px;
+        margin: 8px 0;
+
+        & > * {
+            border: 1px solid #e6e6e6;
+        }
+
+        .product-quantity-btn-right,
+        .product-quantity-btn-left {
+            width: 24px;
+            height: 100%;
+            background-color: transparent;
+        }
+
+        .product-quantity-btn-left {
+            border-radius: 100px 0 0 100px;
+        }
+
+        .product-quantity-btn-right {
+            border-radius: 0 100px 100px 0;
+        }
+
+        .product-quantity-input {
+            width: 34px;
+            height: 100%;
+            line-height: 28px;
+            text-align: center !important;
+            color: #000;
+            background-color: transparent;
+            font-size: 13px;
+
+            &:focus {
+                border: 1px solid #222;
+            }
+        }
+    }
+}
+
+.pay-box {
+    padding: 10px 0;
+    margin: 0 10px;
+    border-top: 1px solid rgb(205, 205, 205);
+
+    .total-price {
+        margin-bottom: 10px;
+        text-align: right;
+
+        span {
+            font-size: 20px;
+            font-weight: 700;
+            vertical-align: middle;
+            color: #fa6338;
+        }
+    }
+
+    .btn-view-bag {
+        width: 100%;
+        height: 44px;
+        margin-bottom: 10px;
+        line-height: 42px;
+        padding: 0 24px;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: var(--black);
+        color: var(--white);
+        text-align: center;
+        text-transform: uppercase;
+        border: none;
+        outline: 0;
+
+        &:hover {
+            background: rgba(34, 34, 34, 0.8);
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

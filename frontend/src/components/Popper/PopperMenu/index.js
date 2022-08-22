@@ -1,5 +1,4 @@
 import classNames from 'classnames/bind';
-import { Link } from 'react-router-dom';
 import HeadlessTippy from '@tippyjs/react/headless';
 import 'tippy.js/dist/tippy.css';
 
@@ -79,12 +78,16 @@ function PopperMenu({ children, items = [], type, placement, hideOnClick }) {
                                 {items.map((item, index) => {
                                     let Compt = item.icon;
                                     return (
-                                        <Link to={item.link} key={index} className={cx('advise-item')}>
+                                        <a
+                                            href="https://www.shein.com.vn/robot?page=navigationBar&page_name=page_home&sandbox=&preview=&id=&storecode=&storename=&storestation="
+                                            key={index}
+                                            className={cx('advise-item')}
+                                        >
                                             <i className={cx('advise-icon')}>
                                                 <Compt sx={{ fontSize: 16, fontWeight: 400 }} />
                                             </i>
                                             <h4 className={cx('advise-content')}>{item.content}</h4>
-                                        </Link>
+                                        </a>
                                     );
                                 })}
                             </PopperWrapper>

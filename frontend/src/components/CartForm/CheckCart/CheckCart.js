@@ -7,6 +7,8 @@ import styles from './CheckCart.module.scss';
 import images from 'assets/images';
 import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 import ProductInCart from 'components/Product/ProductInCart/ProductInCart';
+import { useSelector } from 'react-redux';
+import { cartItemsCountSelector, cartItemsSelector, cartItemsTotalPaySelector } from 'redux/Cart/cartSelector';
 
 const cx = classNames.bind(styles);
 
@@ -16,6 +18,10 @@ const styleCol = {
 };
 
 function CheckCart() {
+    const cartList = useSelector(cartItemsSelector);
+    const totalProduct = useSelector(cartItemsCountSelector);
+    const totalBill = useSelector(cartItemsTotalPaySelector);
+
     return (
         <Container bsPrefix={cx('container-fluid-1200', 'wrapper')} style={{ padding: '0 10px 30px' }}>
             <div className={cx('process-status-bar')}>
@@ -53,17 +59,12 @@ function CheckCart() {
 
                     <Row>
                         <div className={cx('cartlist-header')}>
-                            <h1 className={cx('header-title')}>Tóm Tắt Mặt Hàng</h1>
+                            <h1 className={cx('header-title')}>
+                                Tóm Tắt Mặt Hàng <span style={{ color: '#c44a01' }}>{`( ${totalProduct} )`}</span>
+                            </h1>
                             <div className={cx('cart-table')}>
                                 <ul className={cx('table-row')}>
-                                    <li className={cx('table-item')} style={{ display: 'inline-flex' }}>
-                                        <label className={cx('item-label')}>
-                                            <input type="checkbox" />
-                                            <i className={cx('checkmark')}></i>
-                                        </label>
-                                        <span style={{ marginLeft: 10 }}>Tất cả</span>
-                                    </li>
-
+                                    <li className={cx('table-item')}>Tất cả</li>
                                     <li className={cx('table-item')}>Sản phẩm</li>
                                     <li className={cx('table-item')}>Giá</li>
                                     <li className={cx('table-item')}>Số lượng </li>
@@ -85,15 +86,18 @@ function CheckCart() {
                         </div>
                     </Row>
 
-                    {/* <ProductInCart /> */}
+                    {cartList.map((product) => (
+                        <ProductInCart item={product} />
+                    ))}
                 </Col>
                 <Col md={4} style={styleCol}>
                     <div className={cx('payment')}>
                         <h4 className={cx('total-title')}>Tóm tắt Đơn hàng</h4>
                         <div className={cx('price-box')}>
-                            <p className={cx('total-price-title')}>Tổng tiền thanh toán</p>
+                            <p className={cx('total-price-title')}>Tổng tiền thanh toán: </p>
                             <p className={cx('total-price')}>
-                                0<span>₫</span>
+                                {totalBill}
+                                <span>₫</span>
                             </p>
                         </div>
                         <div className={cx('check-btn')}>

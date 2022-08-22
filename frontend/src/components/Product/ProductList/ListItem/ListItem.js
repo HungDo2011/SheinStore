@@ -14,6 +14,7 @@ function ListItem({ data, type, lengthRule }) {
     const [code, setCode] = useState([]);
 
     useEffect(() => {
+        // eslint-disable-next-line
         publicRoutes.map((item) => {
             if (item.type === type) {
                 setCode(item.code);
@@ -21,7 +22,7 @@ function ListItem({ data, type, lengthRule }) {
         });
 
         setLoading(false);
-    });
+    }, [loading, type]);
 
     return (
         <div className={cx('product-list')}>

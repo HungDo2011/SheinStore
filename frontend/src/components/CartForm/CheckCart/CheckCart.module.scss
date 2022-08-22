@@ -90,7 +90,8 @@
             .table-row {
                 display: flex;
                 justify-content: space-between;
-                padding: 16px;
+                align-items: center;
+                padding: 16px 4px;
                 list-style: none;
 
                 .table-item {
@@ -163,7 +164,7 @@
 
             .total-price {
                 font-size: 24px;
-                color: var(--text-color);
+                color: #c44a01;
                 letter-spacing: 2px;
             }
         }
@@ -199,30 +200,5 @@
                 margin-right: 15px;
             }
         }
-    }
-}
-
-// CheckBox
-
-.check-box {
-    width: 22px !important;
-
-    margin-right: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.item-label {
-    max-width: 100%;
-    position: relative;
-    margin-bottom: 10px;
-
-    &:hover {
-        cursor: pointer;
-    }
-
-    &:first-child {
-        display: block;
     }
 }

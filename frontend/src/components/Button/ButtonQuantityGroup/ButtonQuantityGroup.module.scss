@@ -1,10 +1,31 @@
-.product-quantity {
+.wrapper {
+    position: relative;
+}
+
+.flex {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.popper-quantity-height {
     height: 28px;
+    padding: 6px;
+}
+
+.product-quantity {
+    min-width: 95px;
+    height: 30px;
+}
+
+.product-quantity,
+.popper-quantity-height {
+    display: flex;
+    align-items: center;
     line-height: 28px;
     text-align: center;
     font-size: 16px;
+    z-index: 10;
 
     & > * {
         border: 1px solid #e6e6e6;
@@ -15,6 +36,11 @@
         width: 24px;
         height: 100%;
         background-color: transparent;
+        line-height: 100%;
+
+        &:hover {
+            border-color: #767373;
+        }
     }
 
     .product-quantity-btn-left {
@@ -40,6 +66,7 @@
     }
 }
 
+//Popper
 .product-price {
     width: 70px;
     line-height: 20px;

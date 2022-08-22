@@ -7,7 +7,7 @@ import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined';
 
 import styles from './Product.module.scss';
 import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
-import ButtonLike from 'components/Product/ProductItem/ButtonLike/ButtonLike';
+import ButtonLike from 'components/Button/ButtonLike/ButtonLike';
 import CountDown from 'components/CountDown/CountDown';
 import ButtonSize from 'components/Button/ButtonSize';
 import SizeHelp from 'components/Button/ButtonSize/SizeHelp';
@@ -25,6 +25,7 @@ function Product({ data }) {
 
     //Handle Price
     const salePercent = Math.floor((data.promotional_price / data.price) * 100);
+
     const saleThrifty = data.price * 1000 - data.promotional_price * 1000;
     let result = saleThrifty.toString().split('');
     result.splice(-3, 0, '.');

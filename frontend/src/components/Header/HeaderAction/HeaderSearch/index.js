@@ -1,6 +1,6 @@
 import axios from 'axios';
 import classNames from 'classnames/bind';
-import { useEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import SearchIcon from '@mui/icons-material/Search';
@@ -11,10 +11,10 @@ import HeadlessTippy from '@tippyjs/react/headless';
 import 'tippy.js/dist/tippy.css';
 
 import styles from './HeaderSearch.module.scss';
-import { PopperWrapper } from 'components/Popper';
+import config from 'config';
 import ProductSearchItem from './ProductSearchItem';
 import { useDebounce } from 'hooks';
-import config from 'config';
+import { PopperWrapper } from 'components/Popper';
 
 const cx = classNames.bind(styles);
 
@@ -28,10 +28,10 @@ function HeaderSearch() {
 
     const inputRef = useRef();
 
-    useEffect(() => {
+    useLayoutEffect(() => {
+        console.log('hi');
         if (!searchValue.trim()) {
             setSearchResult([]);
-            return;
         }
 
         setLoading(true);
@@ -49,6 +49,7 @@ function HeaderSearch() {
                 });
                 setSearchResult(newList);
                 setLoading(false);
+                setShowResult(true);
             })
             .catch((e) => {
                 setLoading(false);
@@ -87,9 +88,9 @@ function HeaderSearch() {
                         <PopperWrapper type="search">
                             <h4 className={cx('search-title')}>Bạn Muốn Tìm Gì??!!!</h4>
                             <div className={cx('menu-srollable')}>
-                                {searchResult.map((item, index) => {
-                                    return <ProductSearchItem item={item} key={item.id} />;
-                                })}
+                                {searchResult.map((item) => (
+                                    <ProductSearchItem item={item} key={item.id} />
+                                ))}
                             </div>
                             <Link
                                 onClick={() => {

@@ -6,6 +6,7 @@ import styles from './EmtyCart.module.scss';
 import images from 'assets/images';
 import config from 'config';
 import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
+import { memo } from 'react';
 
 const cx = classNames.bind(styles);
 
@@ -25,4 +26,4 @@ function EmtyCart() {
     );
 }
 
-export default EmtyCart;
+export default memo(EmtyCart);
