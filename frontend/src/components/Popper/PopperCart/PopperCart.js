@@ -3,14 +3,13 @@ import classNames from 'classnames/bind';
 import styles from './PopperCart.module.scss';
 import images from 'assets/images';
 import config from 'config';
-import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 import ProductSearchItem from 'components/Header/HeaderAction/HeaderSearch/ProductSearchItem';
 import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
 function PopperCart() {
-    return true ? (
+    return false ? (
         <div className={cx('cart')}>
             {/* {cartList.map((item) => (
                 <Link to={`/product/${item.code_SKU}`} key={item.id}>

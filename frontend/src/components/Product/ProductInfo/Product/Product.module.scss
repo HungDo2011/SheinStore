@@ -16,6 +16,9 @@
             word-break: break-word;
             padding-right: 48px;
             margin-bottom: 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .product-code {

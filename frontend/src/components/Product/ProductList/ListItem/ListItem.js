@@ -14,22 +14,20 @@ function ListItem({ data, type, lengthRule }) {
     const [code, setCode] = useState([]);
 
     useEffect(() => {
-        // eslint-disable-next-line
         publicRoutes.map((item) => {
             if (item.type === type) {
                 setCode(item.code);
             }
         });
 
-        setTimeout(() => {
-            setLoading(false);
-        }, 500);
-    }, [type, lengthRule]);
+        setLoading(false);
+    });
 
     return (
         <div className={cx('product-list')}>
             <Row>
-                {data.filter((item, index) => {
+                {/* eslint-disable-next-line */}
+                {data.map((item, index) => {
                     if (code.includes(item.type) && index < lengthRule) {
                         return (
                             <Col bsPrefix={cx('product-item', 'col-md-3')} key={item.id}>

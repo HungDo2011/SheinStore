@@ -82,7 +82,7 @@ function ProductInfo({ data }) {
                 <h1 style={{ position: 'absolute', top: 0 }}>Khách Hàng Xem Thêm</h1>
                 <ListItem data={data} type={type} lengthRule="12" />
             </Row>
-            <Row style={{ marginTop: 50 }}>
+            <Row style={{ marginTop: 50, textAlign: 'center' }}>
                 <Link to={`/${type}-products`}>
                     <button className={cx('btn-more')}>Xem thêm</button>
                 </Link>
