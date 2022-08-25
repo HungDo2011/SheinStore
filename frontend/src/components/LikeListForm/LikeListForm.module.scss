@@ -1,6 +1,38 @@
-.title {
+.header-title {
     font-size: 30px;
     font-weight: 700;
-    color: #222;
+    color: var(--text-color);
     text-transform: uppercase;
+}
+
+.footer-title {
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.footer-content {
+    font-family: ArialMT;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #666;
+}
+
+.see-more {
+    margin: 0 auto;
+    width: 160px !important;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--text-color);
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }

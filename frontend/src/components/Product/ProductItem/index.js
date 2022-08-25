@@ -9,7 +9,7 @@ import ButtonSubmit from 'components/Button/ButtonSubmit/ButtonSubmit';
 
 const cx = classNames.bind(styles);
 
-function ProductItem({ data, hover }) {
+function ProductItem({ data, hover, liked }) {
     const [show, setShow] = useState(false);
 
     const salePercent = Math.floor((data.promotional_price / data.price) * 100);
@@ -40,18 +40,17 @@ function ProductItem({ data, hover }) {
                         <>
                             <p className={cx('new-price')}>{data.promotional_price}₫</p>
                             <p className={cx('old-price')}>{data.price}₫</p>
-                            <ButtonLike right data={data} />
                         </>
                     ) : (
                         <>
                             <p className={cx('price')}>{data.price}₫</p>
-                            <ButtonLike right data={data} />
                         </>
                     )}
+                    {liked ? <></> : <ButtonLike right data={data} />}
                 </div>
 
                 <p className={cx('product-name')}>{data.name}</p>
-                {hover && <ButtonSubmit value="thêm vào giỏ hàng" hoverItem show={show} />}
+                {hover && <ButtonSubmit value="thêm vào giỏ hàng" liked hoverItem show={show} />}
             </Link>
         </div>
     );

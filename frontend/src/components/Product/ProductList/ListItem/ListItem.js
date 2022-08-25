@@ -27,15 +27,13 @@ function ListItem({ data, type, lengthRule }) {
     return (
         <div className={cx('product-list')}>
             <Row>
-                {/* eslint-disable-next-line */}
                 {data.map((item, index) => {
-                    if (code.includes(item.type) && index < lengthRule) {
+                    if (code.includes(item.type) && index < lengthRule)
                         return (
                             <Col bsPrefix={cx('product-item', 'col-md-3')} key={item.id}>
                                 {loading ? <ProductSkeletonItem /> : <ProductItem data={item} hover />}
                             </Col>
                         );
-                    }
                 })}
             </Row>
         </div>

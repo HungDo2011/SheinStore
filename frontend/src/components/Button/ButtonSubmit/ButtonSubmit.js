@@ -9,7 +9,8 @@ const cx = classNames.bind(styles);
 function ButtonSubmit({ show, hoverItem, cart, color, size, value, data }) {
     const dispatch = useDispatch();
 
-    const handleAddToCart = () => {
+    const handleAddToCart = (e) => {
+        e.preventDefault();
         dispatch(
             addToCart({
                 id: data.id,
@@ -22,7 +23,7 @@ function ButtonSubmit({ show, hoverItem, cart, color, size, value, data }) {
     return (
         <button
             className={cx('btn-add-item', show && 'show', hoverItem && 'hover-item', cart && 'btn-cart', color, size)}
-            onClick={handleAddToCart}
+            onClick={(e) => handleAddToCart(e)}
         >
             {value}
         </button>

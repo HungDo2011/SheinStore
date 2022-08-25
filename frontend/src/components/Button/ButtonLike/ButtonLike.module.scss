@@ -5,12 +5,8 @@
     padding: 2px 10px;
     background-color: transparent;
 
-    .unlike-icon,
-    .liked-icon {
-        display: none;
-    }
-
-    .show {
+    .like-icon,
+    .unlike-icon {
         display: block;
     }
 }

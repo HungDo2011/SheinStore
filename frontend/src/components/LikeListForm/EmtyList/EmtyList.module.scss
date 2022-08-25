@@ -1,5 +1,5 @@
 .wrapper {
-    .emty-cart-content {
+    .emty-list-content {
         font-family: ArialMT;
         width: 100%;
         margin-top: 30px;
@@ -8,11 +8,52 @@
         font-size: 12px;
         line-height: 14px;
         margin-top: 30px;
-        text-align: center;
         border-bottom: 1px solid #e5e5e5;
 
         p {
+            text-align: center;
             width: 100%;
+        }
+    }
+
+    .emty-list-guide {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 40px 0;
+        text-align: left;
+
+        .guide-title {
+            h1 {
+                color: #222;
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 33px;
+                text-transform: none;
+            }
+
+            p {
+                margin: 5px 0 30px;
+                color: #666;
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+    }
+
+    .guide-content {
+        p {
+            font-size: 15px;
+        }
+
+        p + p {
+            margin-top: 15px;
+        }
+    }
+
+    .guide-img {
+        img {
+            width: 265px;
         }
     }
 }

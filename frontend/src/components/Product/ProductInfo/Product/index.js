@@ -84,7 +84,7 @@ function Product({ data }) {
                     <ButtonSubmit value="thêm vào giỏ hàng" show color="btn-black" size="btn-350" data={product} />
                 </div>
                 <div className={cx('btn-like')}>
-                    <ButtonLike style={{ fontSize: 32 }} />
+                    <ButtonLike style={{ fontSize: 32 }} data={product} />
                 </div>
             </div>
 

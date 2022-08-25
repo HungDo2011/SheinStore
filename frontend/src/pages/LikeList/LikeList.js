@@ -1,7 +1,7 @@
 import LikeListForm from 'components/LikeListForm';
 
-function LikeList() {
-    return <LikeListForm />;
+function LikeList({ data }) {
+    return <LikeListForm data={data} type="women" />;
 }
 
 export default LikeList;

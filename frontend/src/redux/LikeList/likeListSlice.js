@@ -1,26 +1,27 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const likeList = createSlice({
-    name: 'like-list',
+const likeListSlice = createSlice({
+    name: 'likeList',
     initialState: {
         likeItems: [],
     },
     reducers: {
-        like(state, action) {
+        toggleLike(state, action) {
             // newProduct ={ id, product }
             const newProduct = action.payload;
-            state.likeItems.push(newProduct);
-        },
+            const index = state.likeItems.findIndex((item) => item.id === newProduct.id);
 
-        unLike(state, action) {
-            const idNeedRemove = action.payload;
-            state.likeItems = state.likeItems.filter((item) => item.id !== idNeedRemove);
+            if (index >= 0) {
+                state.likeItems.splice(index, 1);
+            } else {
+                state.likeItems.push({ liked: true, ...newProduct });
+            }
         },
     },
 });
 
-const { actions, reducer } = cartSlice;
+const { actions, reducer } = likeListSlice;
 
-export const { like, unLike } = actions;
+export const { toggleLike } = actions;
 
 export default reducer;

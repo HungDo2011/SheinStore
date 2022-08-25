@@ -21,6 +21,7 @@ const styleBadge = {
 
 function WidgetMenu() {
     const quantityInCart = useSelector(cartItemsCountSelector);
+    const likeList = useSelector(likeListSelector);
 
     return (
         <div className={cx('widget-menu')}>
@@ -32,7 +33,7 @@ function WidgetMenu() {
                 }
 
                 if (item.name === 'like') {
-                    item.amount = likeListSelector.length;
+                    item.amount = likeList.length;
                 }
 
                 return (

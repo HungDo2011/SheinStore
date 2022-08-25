@@ -22,7 +22,7 @@ function CheckCart() {
     const totalProduct = useSelector(cartItemsCountSelector);
     const totalBill = useSelector(cartItemsTotalPaySelector);
 
-    console.log(totalBill);
+    console.log('cart: ', cartList);
 
     return (
         <Container bsPrefix={cx('container-fluid-1200', 'wrapper')} style={{ padding: '0 10px 30px' }}>
