@@ -26,10 +26,7 @@ function Product({ data }) {
     //Handle Price
     const salePercent = Math.floor((data.promotional_price / data.price) * 100);
 
-    const saleThrifty = data.price * 1000 - data.promotional_price * 1000;
-    let result = saleThrifty.toString().split('');
-    result.splice(-3, 0, '.');
-    result = result.join('');
+    const saleThrifty = (data.price * 1000 - data.promotional_price * 1000).toLocaleString();
 
     return (
         <div className={cx('product-container')}>
@@ -47,7 +44,7 @@ function Product({ data }) {
                             <span className={cx('original-price')}>{data.price}₫</span>
                         </div>
                         <div className={cx('flashsale-diff')}>
-                            <span className={cx('flashsale-thrifty')}>Tiêt kiệm: {result}₫</span>
+                            <span className={cx('flashsale-thrifty')}>Tiêt kiệm: {saleThrifty}₫</span>
                             <span className={cx('sale-percent')}>-{salePercent ?? '-'}%</span>
                         </div>
                         <div className={cx('count-down-box')}>

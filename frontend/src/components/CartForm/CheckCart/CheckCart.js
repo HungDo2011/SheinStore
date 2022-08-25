@@ -22,6 +22,8 @@ function CheckCart() {
     const totalProduct = useSelector(cartItemsCountSelector);
     const totalBill = useSelector(cartItemsTotalPaySelector);
 
+    console.log(totalBill);
+
     return (
         <Container bsPrefix={cx('container-fluid-1200', 'wrapper')} style={{ padding: '0 10px 30px' }}>
             <div className={cx('process-status-bar')}>
@@ -96,7 +98,7 @@ function CheckCart() {
                         <div className={cx('price-box')}>
                             <p className={cx('total-price-title')}>Tổng tiền thanh toán: </p>
                             <p className={cx('total-price')}>
-                                {totalBill}
+                                {totalBill.toLocaleString()}
                                 <span>₫</span>
                             </p>
                         </div>

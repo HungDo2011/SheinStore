@@ -6,6 +6,7 @@ import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 
 import images from 'assets/images';
 import config from 'config';
+import { likeListSelector } from 'redux/LikeList/likeListSelector';
 
 const MENU_USER_DATA = [
     {
@@ -54,8 +55,6 @@ const MENU_ADVISE_DATA = [
     },
 ];
 
-const MENU_LIKE_DATA = [];
-
 const MENU_CURRENCY_DATA = [
     {
         title: 'Tiền tệ',
@@ -83,7 +82,7 @@ const widgetMenu = [
         link: config.routesConfig.like,
         icon: FavoriteBorderOutlinedIcon,
         placement: 'bottom-start',
-        data: MENU_LIKE_DATA,
+        data: likeListSelector,
     },
     {
         name: 'advise',

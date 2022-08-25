@@ -31,7 +31,7 @@ function PopperCart() {
 
             <div className={cx('pay-box')}>
                 <p className={cx('total-price')}>
-                    Tổng cổng: <span>{totalBill}₫</span>
+                    Tổng cổng: <span>{totalBill.toLocaleString()}₫</span>
                 </p>
                 <Link to={config.routesConfig.cart}>
                     <button className={cx('btn-view-bag')}>xem giỏ hàng</button>

@@ -14,10 +14,7 @@ function ButtonQuantityGroup({ item, popper }) {
 
     const price = item.product.promotional_price > 0 ? item.product.promotional_price : item.product.price;
 
-    let totalPrice = (price * value * 1000).toString().split('');
-
-    totalPrice.splice(-3, 0, '.');
-    totalPrice = totalPrice.join('');
+    let totalPrice = (parseInt(price) * value * 1000).toLocaleString();
 
     useLayoutEffect(() => {
         setValue(item.quantity);

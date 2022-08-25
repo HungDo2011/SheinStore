@@ -7,6 +7,7 @@ import styles from './WidgetMenu.module.scss';
 import { widgetMenu } from 'Data/MenuData';
 import PopperMenu from 'components/Popper/PopperMenu';
 import { cartItemsCountSelector } from 'redux/Cart/cartSelector';
+import { likeListSelector } from 'redux/LikeList/likeListSelector';
 
 const cx = classNames.bind(styles);
 
@@ -30,9 +31,9 @@ function WidgetMenu() {
                     item.amount = quantityInCart;
                 }
 
-                // if (item.name === 'like') {
-                //     item.amount = cardList.length;
-                // }
+                if (item.name === 'like') {
+                    item.amount = likeListSelector.length;
+                }
 
                 return (
                     <PopperMenu

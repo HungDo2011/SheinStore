@@ -1,5 +1,7 @@
+import LikeListForm from 'components/LikeListForm';
+
 function LikeList() {
-    return <h1> Like List Page</h1>;
+    return <LikeListForm />;
 }
 
 export default LikeList;

@@ -13,11 +13,9 @@ export const cartItemsCountSelector = createSelector(cartItemsSelector, (cartIte
 export const cartItemsTotalPaySelector = createSelector(cartItemsSelector, (cartItems) =>
     cartItems.reduce((count, item) => {
         const price = item.product.promotional_price > 0 ? item.product.promotional_price : item.product.price;
-        const result = (count + price * item.quantity) * 1000;
+        const result = price.replace('.', '');
+        const totalBill = count + parseInt(result) * item.quantity;
 
-        let totalBill = result.toString().split('');
-        totalBill.splice(-3, 0, '.');
-
-        return totalBill.join('');
+        return totalBill;
     }, 0),
 );
