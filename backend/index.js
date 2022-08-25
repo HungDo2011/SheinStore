@@ -2,7 +2,7 @@ const express = require("express");
 const { MongoClient } = require("mongodb");
 const { getProduct } = require("./modules/productInfo/product.controller");
 
-const url = "mongodb://localhost:27017";
+const url = "mongodb://localhost:27017/";
 const client = new MongoClient(url);
 
 const dbName = "Shein";
@@ -10,8 +10,6 @@ const dbName = "Shein";
 // Use connect method to connect to the server
 async function connectMongoDB() {
   await client.connect();
-  const db = client.db(dbName);
-  const collection = db.collection("product");
 
   // the following code examples can be pasted here...
 
@@ -31,10 +29,8 @@ async function main() {
   const productInfo = await client
     .db(dbName)
     .collection("product")
-    .find({ id: 1 })
+    .find()
     .toArray();
-
-  console.log(productInfo);
 
   app.get("api/product", async (req, res) => {
     console.log(req.query);

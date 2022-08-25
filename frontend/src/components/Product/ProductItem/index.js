@@ -50,7 +50,7 @@ function ProductItem({ data, hover, liked }) {
                 </div>
 
                 <p className={cx('product-name')}>{data.name}</p>
-                {hover && <ButtonSubmit value="thêm vào giỏ hàng" liked hoverItem show={show} />}
+                {hover && <ButtonSubmit value="thêm vào giỏ hàng" data={data} liked hoverItem show={show} />}
             </Link>
         </div>
     );
