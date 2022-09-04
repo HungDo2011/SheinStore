@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import userReducer from './User/userSlice';
+import authReducer from './Auth/authSlice';
 import cartReducer from './Cart/cartSlice';
 import likeListReducer from './LikeList/likeListSlice';
 
 const rootReducer = {
-    user: userReducer,
+    auth: authReducer,
     cart: cartReducer,
     likeList: likeListReducer,
 };

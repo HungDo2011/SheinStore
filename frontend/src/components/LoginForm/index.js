@@ -1,7 +1,12 @@
-import FireBaseSignIn from './FireBaseSignIn';
+import SignInPage from './SignInPage';
+import SignOutPage from './SignOutPage';
 
 function LoginForm() {
-    return <FireBaseSignIn />;
+    return <SignInPage />;
+
+    {
+        /* <SignOutPage /> */
+    }
 }
 
 export default LoginForm;

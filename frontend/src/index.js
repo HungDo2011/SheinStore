@@ -9,13 +9,11 @@ import GlobalStyles from './components/GlobalStyles';
 import store from 'redux/store';
 
 ReactDOM.render(
-    <React.StrictMode>
-        <Provider store={store}>
-            <GlobalStyles>
-                <App />
-            </GlobalStyles>
-        </Provider>
-    </React.StrictMode>,
+    <Provider store={store}>
+        <GlobalStyles>
+            <App />
+        </GlobalStyles>
+    </Provider>,
     document.getElementById('root'),
 );
 reportWebVitals();

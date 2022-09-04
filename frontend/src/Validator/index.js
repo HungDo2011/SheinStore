@@ -6,7 +6,7 @@ export const testEmail = (value) => {
 };
 
 export function testPassword(password) {
-    return 8 <= password.length && password.length <= 10;
+    return 8 <= password.length && password.length;
 }
 
 export function verifyPassword(password, comparePassword) {

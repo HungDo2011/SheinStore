@@ -6,8 +6,6 @@ import { memo } from 'react';
 const cx = classNames.bind(styles);
 
 function HotZone() {
-    console.log('render');
-
     return (
         <div className={cx('wrapper')}>
             <img alt="Hot Zone" src={images.hotZoneHead} className={cx('head')} />

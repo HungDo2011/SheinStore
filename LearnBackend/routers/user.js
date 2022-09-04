@@ -4,10 +4,10 @@ const middlewareController = require("../controller/middlewareController");
 const userController = require("../controller/userController");
 
 //Get all user
-router.get("/", userController.getAllUser);
+router.get("/", middlewareController.verifyToken, userController.getAllUser);
 
 //Get an user
-router.get("/:id", middlewareController.verifyToken, userController.getAnUser);
+router.get("/:id", userController.getAnUser);
 
 //Delete user
 router.delete(

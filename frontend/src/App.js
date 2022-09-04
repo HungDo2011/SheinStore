@@ -14,15 +14,15 @@ firebase.initializeApp(config.firebaseConfig);
 function App() {
     const [data, setData] = useState([]);
 
-    useEffect(() => {
-        axios
-            .get(process.env.REACT_APP_BASE_URL)
+    // useEffect(() => {
+    //     axios
+    //         .get(process.env.REACT_APP_BASE_URL)
 
-            .then((res) => {
-                return setData(res.data);
-            })
-            .catch((e) => alert('Lỗi tải dữ liệu! '));
-    }, []);
+    //         .then((res) => {
+    //             return setData(res.data);
+    //         })
+    //         .catch((e) => alert('Lỗi tải dữ liệu! '));
+    // }, []);
 
     return (
         <div className="App">

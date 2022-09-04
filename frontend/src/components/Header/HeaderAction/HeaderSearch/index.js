@@ -29,7 +29,6 @@ function HeaderSearch() {
     const inputRef = useRef();
 
     useLayoutEffect(() => {
-        console.log('hi');
         if (!searchValue.trim()) {
             setSearchResult([]);
         }
