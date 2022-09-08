@@ -4,7 +4,11 @@ const middlewareController = require("../controller/middlewareController");
 const userController = require("../controller/userController");
 
 //Get all user
-router.get("/", middlewareController.verifyToken, userController.getAllUser);
+router.get(
+  "/get-all",
+  middlewareController.verifyToken,
+  userController.getAllUser
+);
 
 //Get an user
 router.get("/:id", userController.getAnUser);

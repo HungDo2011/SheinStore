@@ -7,6 +7,7 @@ import { Button, Col, Form, Row } from 'react-bootstrap';
 import styles from './LogInItem.module.scss';
 import { loginUser } from 'redux/ApiRequest/ApiRequest';
 import { testEmail, testPassword, verifyPassword } from 'Validator';
+import { userInfo } from 'redux/Auth/authSelector';
 
 const cx = classNames.bind(styles);
 
@@ -52,29 +53,29 @@ function LogInItem({ login = false }) {
 
     const handleSubmitLogIn = (e) => {
         e.preventDefault();
-
         if (valueEmail !== '' && testEmail(valueEmail) && valuePassword !== '' && testPassword(valuePassword)) {
             const newUser = {
                 email: valueEmail,
                 password: valuePassword,
             };
+
             loginUser(newUser, dispatch, navigate);
         }
     };
 
     const handleSubmitRegister = (e) => {
         e.preventDefault();
-        if (
-            valueEmail !== '' &&
-            testEmail(valueEmail) &&
-            valuePassword !== '' &&
-            testPassword(valuePassword) &&
-            valueRePassword !== '' &&
-            verifyPassword(valuePassword, valueRePassword)
-        ) {
-            console.log(valueEmail);
-            console.log(valuePassword);
-        }
+        // if (
+        //     valueEmail !== '' &&
+        //     testEmail(valueEmail) &&
+        //     valuePassword !== '' &&
+        //     testPassword(valuePassword) &&
+        //     valueRePassword !== '' &&
+        //     verifyPassword(valuePassword, valueRePassword)
+        // ) {
+        //     console.log(valueEmail);
+        //     console.log(valuePassword);
+        // }
     };
 
     return (
@@ -89,9 +90,7 @@ function LogInItem({ login = false }) {
                             <Form.Label className={cx('label')}>Tên người dùng</Form.Label>
                             <Form.Control
                                 value={valueUserName}
-                                onChange={(e) => {
-                                    setValueUserName(e.target.value);
-                                }}
+                                onChange={(e) => setValueUserName(e.target.value)}
                                 bsPrefix={cx('control')}
                                 type="text"
                             />
@@ -104,9 +103,7 @@ function LogInItem({ login = false }) {
                         <Form.Control
                             value={valueEmail}
                             onBlur={handleBlurEmail}
-                            onChange={(e) => {
-                                setValueEmail(e.target.value);
-                            }}
+                            onChange={(e) => setValueEmail(e.target.value)}
                             bsPrefix={cx('control')}
                             type="email"
                         />
@@ -124,9 +121,7 @@ function LogInItem({ login = false }) {
                         <Form.Control
                             value={valuePassword}
                             onBlur={handleBlurPassword}
-                            onChange={(e) => {
-                                setValuePassword(e.target.value);
-                            }}
+                            onChange={(e) => setValuePassword(e.target.value)}
                             bsPrefix={cx('control')}
                             type="password"
                         />

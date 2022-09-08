@@ -6,7 +6,7 @@ const middlewareController = require("../controller/middlewareController");
 router.post("/register", authController.registerUser);
 
 //Login
-router.get("/login", authController.loginUser);
+router.post("/login", authController.loginUser);
 
 //Refresh
 router.post("/refresh", authController.refreshToken);

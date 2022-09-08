@@ -56,16 +56,14 @@ const authController = {
   loginUser: async (req, res) => {
     try {
       const user = await User.findOne({ email: req.body.email });
-      if (!user) {
-        res.status(404).json("Không đúng email");
-      }
+
       const validPassword = await bcrypt.compare(
         req.body.password,
         user.password
       );
 
-      if (!validPassword) {
-        res.status(404).json("Không đúng mật khẩu");
+      if (!user || !validPassword) {
+        res.status(404).json("Sai tên đăng nhập hoặc mật khẩu!");
       }
 
       if (user && validPassword) {
@@ -74,15 +72,15 @@ const authController = {
 
         refreshTokens.push(refreshToken);
 
-        res.cookie("refreshToken", refreshToken, {
+        await res.cookie("refreshToken", refreshToken, {
           httpOnly: true,
-          secure: true, //set true when done!
+          secure: false, //set true when done!
           sameSite: "strict",
           path: "/",
         });
 
         const { password, ...other } = user._doc;
-        return res.status(200).json({ ...other, accessToken });
+        res.status(200).json({ ...other, accessToken });
       }
     } catch (err) {
       console.log(err);
@@ -117,7 +115,7 @@ const authController = {
 
       res.cookie("refreshToken", newRefreshToken, {
         httpOnly: true,
-        secure: true, //set true when done!
+        secure: false, //set true when done!
         sameSite: "strict",
         path: "/",
       });

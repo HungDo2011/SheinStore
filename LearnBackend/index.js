@@ -36,9 +36,6 @@ app.use("/api/brand", brandRoute);
 
 app.use("/api/product", productRoute);
 
-//Authentication
-//Authorization
-
 app.listen(8000, () => {
   console.log("Running");
 });

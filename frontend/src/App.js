@@ -1,28 +1,25 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import firebase from 'firebase/compat/app';
 import axios from 'axios';
 
 import { publicRoutes } from './routes/routes';
 import { DefaultLayout } from 'Layout';
-import config from 'config';
 
 // Configure Firebase.
-
-firebase.initializeApp(config.firebaseConfig);
 
 function App() {
     const [data, setData] = useState([]);
 
-    // useEffect(() => {
-    //     axios
-    //         .get(process.env.REACT_APP_BASE_URL)
+    useEffect(() => {
+        axios
+            .get('http://localhost:3000/data')
 
-    //         .then((res) => {
-    //             return setData(res.data);
-    //         })
-    //         .catch((e) => alert('Lỗi tải dữ liệu! '));
-    // }, []);
+            .then((res) => setData(res.data))
+            .catch((e) => {
+                console.log(e);
+                console.log('Lỗi tải dữ liệu!');
+            });
+    }, []);
 
     return (
         <div className="App">
